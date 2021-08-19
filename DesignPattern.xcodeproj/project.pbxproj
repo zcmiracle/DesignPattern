@@ -65,6 +65,22 @@
 		B385F85C26CDEC8300317C0E /* OperationMul.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F85B26CDEC8300317C0E /* OperationMul.swift */; };
 		B385F86226CDEC8C00317C0E /* OperationDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F86126CDEC8C00317C0E /* OperationDiv.swift */; };
 		B385F87426CDEDE500317C0E /* InterfaceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F87326CDEDE500317C0E /* InterfaceOperation.swift */; };
+		B385F9A826CE575A00317C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9A726CE575A00317C0E /* AppDelegate.swift */; };
+		B385F9AA26CE575A00317C0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9A926CE575A00317C0E /* SceneDelegate.swift */; };
+		B385F9AC26CE575A00317C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9AB26CE575A00317C0E /* ViewController.swift */; };
+		B385F9AF26CE575A00317C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B385F9AD26CE575A00317C0E /* Main.storyboard */; };
+		B385F9B126CE575E00317C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B385F9B026CE575E00317C0E /* Assets.xcassets */; };
+		B385F9B426CE575E00317C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B385F9B226CE575E00317C0E /* LaunchScreen.storyboard */; };
+		B385F9C926CE5B5D00317C0E /* OperationAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9BF26CE5B5D00317C0E /* OperationAdd.swift */; };
+		B385F9CA26CE5B5D00317C0E /* DivFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C026CE5B5D00317C0E /* DivFactory.swift */; };
+		B385F9CB26CE5B5D00317C0E /* AddFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C126CE5B5D00317C0E /* AddFactory.swift */; };
+		B385F9CC26CE5B5D00317C0E /* OperationMul.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C226CE5B5D00317C0E /* OperationMul.swift */; };
+		B385F9CD26CE5B5D00317C0E /* OperationDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C326CE5B5D00317C0E /* OperationDiv.swift */; };
+		B385F9CE26CE5B5D00317C0E /* SubFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C426CE5B5D00317C0E /* SubFactory.swift */; };
+		B385F9CF26CE5B5D00317C0E /* OperationSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C526CE5B5D00317C0E /* OperationSub.swift */; };
+		B385F9D026CE5B5D00317C0E /* InterfaceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C626CE5B5D00317C0E /* InterfaceFactory.swift */; };
+		B385F9D126CE5B5D00317C0E /* MulFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C726CE5B5D00317C0E /* MulFactory.swift */; };
+		B385F9D926CE5B6E00317C0E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9D826CE5B6E00317C0E /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +172,24 @@
 		B385F85B26CDEC8300317C0E /* OperationMul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationMul.swift; sourceTree = "<group>"; };
 		B385F86126CDEC8C00317C0E /* OperationDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDiv.swift; sourceTree = "<group>"; };
 		B385F87326CDEDE500317C0E /* InterfaceOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceOperation.swift; sourceTree = "<group>"; };
+		B385F9A526CE575A00317C0E /* 04_工厂方法模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04_工厂方法模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B385F9A726CE575A00317C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B385F9A926CE575A00317C0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B385F9AB26CE575A00317C0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B385F9AE26CE575A00317C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B385F9B026CE575E00317C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B385F9B326CE575E00317C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B385F9B526CE575E00317C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B385F9BF26CE5B5D00317C0E /* OperationAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationAdd.swift; sourceTree = "<group>"; };
+		B385F9C026CE5B5D00317C0E /* DivFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivFactory.swift; sourceTree = "<group>"; };
+		B385F9C126CE5B5D00317C0E /* AddFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFactory.swift; sourceTree = "<group>"; };
+		B385F9C226CE5B5D00317C0E /* OperationMul.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationMul.swift; sourceTree = "<group>"; };
+		B385F9C326CE5B5D00317C0E /* OperationDiv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationDiv.swift; sourceTree = "<group>"; };
+		B385F9C426CE5B5D00317C0E /* SubFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubFactory.swift; sourceTree = "<group>"; };
+		B385F9C526CE5B5D00317C0E /* OperationSub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationSub.swift; sourceTree = "<group>"; };
+		B385F9C626CE5B5D00317C0E /* InterfaceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceFactory.swift; sourceTree = "<group>"; };
+		B385F9C726CE5B5D00317C0E /* MulFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulFactory.swift; sourceTree = "<group>"; };
+		B385F9D826CE5B6E00317C0E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +215,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B385F80B26CDEA6D00317C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B385F9A226CE575A00317C0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +266,7 @@
 				8AC9B3C826871C7E00267F8E /* 01_工厂方法模式 */,
 				8A7EA24226CD4BB900B4A349 /* 02_简单工厂模式 */,
 				B385F80F26CDEA6D00317C0E /* 03_工厂方法模式 */,
+				B385F9A626CE575A00317C0E /* 04_工厂方法模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -236,6 +278,7 @@
 				8AC9B3C726871C7E00267F8E /* 01_工厂方法模式.app */,
 				8A7EA24126CD4BB900B4A349 /* 02_简单工厂模式.app */,
 				B385F80E26CDEA6D00317C0E /* 03_工厂方法模式.app */,
+				B385F9A526CE575A00317C0E /* 04_工厂方法模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,10 +325,10 @@
 		8AC9B3E626871C9A00267F8E /* 简单工厂 */ = {
 			isa = PBXGroup;
 			children = (
-				8AC9B3E726871CE000267F8E /* Operation.h */,
-				8AC9B3E826871CE000267F8E /* Operation.m */,
 				8AC9B4272687207200267F8E /* OperationFactory.h */,
 				8AC9B4282687207200267F8E /* OperationFactory.m */,
+				8AC9B3E726871CE000267F8E /* Operation.h */,
+				8AC9B3E826871CE000267F8E /* Operation.m */,
 				8AC9B3EF26871DE100267F8E /* OperationPlus.h */,
 				8AC9B3F026871DE100267F8E /* OperationPlus.m */,
 				8AC9B3F426871EA800267F8E /* OperationMinus.h */,
@@ -352,6 +395,38 @@
 				B385F85526CDEC7A00317C0E /* OperationSub.swift */,
 				B385F85B26CDEC8300317C0E /* OperationMul.swift */,
 				B385F86126CDEC8C00317C0E /* OperationDiv.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B385F9A626CE575A00317C0E /* 04_工厂方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B385F9A726CE575A00317C0E /* AppDelegate.swift */,
+				B385F9A926CE575A00317C0E /* SceneDelegate.swift */,
+				B385F9AB26CE575A00317C0E /* ViewController.swift */,
+				B385F9BE26CE577700317C0E /* Classes */,
+				B385F9AD26CE575A00317C0E /* Main.storyboard */,
+				B385F9B026CE575E00317C0E /* Assets.xcassets */,
+				B385F9B226CE575E00317C0E /* LaunchScreen.storyboard */,
+				B385F9B526CE575E00317C0E /* Info.plist */,
+			);
+			path = "04_工厂方法模式";
+			sourceTree = "<group>";
+		};
+		B385F9BE26CE577700317C0E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B385F9C626CE5B5D00317C0E /* InterfaceFactory.swift */,
+				B385F9C126CE5B5D00317C0E /* AddFactory.swift */,
+				B385F9C426CE5B5D00317C0E /* SubFactory.swift */,
+				B385F9C026CE5B5D00317C0E /* DivFactory.swift */,
+				B385F9C726CE5B5D00317C0E /* MulFactory.swift */,
+				B385F9D826CE5B6E00317C0E /* Operation.swift */,
+				B385F9BF26CE5B5D00317C0E /* OperationAdd.swift */,
+				B385F9C526CE5B5D00317C0E /* OperationSub.swift */,
+				B385F9C226CE5B5D00317C0E /* OperationMul.swift */,
+				B385F9C326CE5B5D00317C0E /* OperationDiv.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -427,6 +502,23 @@
 			productReference = B385F80E26CDEA6D00317C0E /* 03_工厂方法模式.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B385F9A426CE575A00317C0E /* 04_工厂方法模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B385F9B826CE575E00317C0E /* Build configuration list for PBXNativeTarget "04_工厂方法模式" */;
+			buildPhases = (
+				B385F9A126CE575A00317C0E /* Sources */,
+				B385F9A226CE575A00317C0E /* Frameworks */,
+				B385F9A326CE575A00317C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04_工厂方法模式";
+			productName = "04_工厂方法模式";
+			productReference = B385F9A526CE575A00317C0E /* 04_工厂方法模式.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -448,6 +540,9 @@
 					B385F80D26CDEA6D00317C0E = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					B385F9A426CE575A00317C0E = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = 8AC9B37626870D3100267F8E /* Build configuration list for PBXProject "DesignPattern" */;
@@ -467,6 +562,7 @@
 				8AC9B3C626871C7E00267F8E /* 01_工厂方法模式 */,
 				8A7EA24026CD4BB900B4A349 /* 02_简单工厂模式 */,
 				B385F80D26CDEA6D00317C0E /* 03_工厂方法模式 */,
+				B385F9A426CE575A00317C0E /* 04_工厂方法模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -510,6 +606,16 @@
 				B385F81D26CDEA7000317C0E /* LaunchScreen.storyboard in Resources */,
 				B385F81A26CDEA7000317C0E /* Assets.xcassets in Resources */,
 				B385F81826CDEA6D00317C0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B385F9A326CE575A00317C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B385F9B426CE575E00317C0E /* LaunchScreen.storyboard in Resources */,
+				B385F9B126CE575E00317C0E /* Assets.xcassets in Resources */,
+				B385F9AF26CE575A00317C0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +695,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B385F9A126CE575A00317C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B385F9CF26CE5B5D00317C0E /* OperationSub.swift in Sources */,
+				B385F9D926CE5B6E00317C0E /* Operation.swift in Sources */,
+				B385F9AC26CE575A00317C0E /* ViewController.swift in Sources */,
+				B385F9CD26CE5B5D00317C0E /* OperationDiv.swift in Sources */,
+				B385F9CE26CE5B5D00317C0E /* SubFactory.swift in Sources */,
+				B385F9A826CE575A00317C0E /* AppDelegate.swift in Sources */,
+				B385F9D126CE5B5D00317C0E /* MulFactory.swift in Sources */,
+				B385F9CB26CE5B5D00317C0E /* AddFactory.swift in Sources */,
+				B385F9CC26CE5B5D00317C0E /* OperationMul.swift in Sources */,
+				B385F9AA26CE575A00317C0E /* SceneDelegate.swift in Sources */,
+				B385F9CA26CE5B5D00317C0E /* DivFactory.swift in Sources */,
+				B385F9C926CE5B5D00317C0E /* OperationAdd.swift in Sources */,
+				B385F9D026CE5B5D00317C0E /* InterfaceFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -652,6 +778,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B385F81C26CDEA7000317C0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B385F9AD26CE575A00317C0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B385F9AE26CE575A00317C0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B385F9B226CE575E00317C0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B385F9B326CE575E00317C0E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -935,6 +1077,50 @@
 			};
 			name = Release;
 		};
+		B385F9B626CE575E00317C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "04_工厂方法模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fearless.-4-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B385F9B726CE575E00317C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "04_工厂方法模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fearless.-4-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -979,6 +1165,15 @@
 			buildConfigurations = (
 				B385F82026CDEA7000317C0E /* Debug */,
 				B385F82126CDEA7000317C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B385F9B826CE575E00317C0E /* Build configuration list for PBXNativeTarget "04_工厂方法模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B385F9B626CE575E00317C0E /* Debug */,
+				B385F9B726CE575E00317C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
