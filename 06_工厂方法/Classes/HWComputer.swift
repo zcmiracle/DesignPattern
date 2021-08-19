@@ -8,13 +8,7 @@
 import Foundation
 
 class HWComputer: Computer {
-    
-    func productName() -> String {
+    func productName() -> String? {
         return "HuaWei"
     }
-    
-//    override func productName() -> String? {
-//        return "HuaWei"
-//    }
-    
 }

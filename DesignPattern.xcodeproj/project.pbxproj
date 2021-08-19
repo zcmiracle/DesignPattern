@@ -32,6 +32,20 @@
 		8A93B0AF26CE949200767936 /* HWComputerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0AE26CE949200767936 /* HWComputerFactory.swift */; };
 		8A93B0B826CE952900767936 /* MacComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0B726CE952900767936 /* MacComputer.swift */; };
 		8A93B0C126CE953300767936 /* HWComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0C026CE953300767936 /* HWComputer.swift */; };
+		8A93B0D726CE9ACB00767936 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0D626CE9ACB00767936 /* main.swift */; };
+		8A93B12926CE9BB500767936 /* HWComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B12826CE9BB500767936 /* HWComputer.swift */; };
+		8A93B13326CE9BBE00767936 /* MacComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B13226CE9BBE00767936 /* MacComputer.swift */; };
+		8A93B13D26CE9BC700767936 /* HWWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B13C26CE9BC700767936 /* HWWatch.swift */; };
+		8A93B14726CE9BE500767936 /* IPhoneWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B14626CE9BE500767936 /* IPhoneWatch.swift */; };
+		8A93B15B26CE9C4000767936 /* HWiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B15A26CE9C4000767936 /* HWiPhone.swift */; };
+		8A93B17F26CE9C5E00767936 /* AppleiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B17E26CE9C5E00767936 /* AppleiPhone.swift */; };
+		8A93B18926CE9D5600767936 /* AbstractFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B18826CE9D5600767936 /* AbstractFactoryProtocol.swift */; };
+		8A93B1AD26CE9DE500767936 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B1AA26CE9DE500767936 /* Watch.swift */; };
+		8A93B1AE26CE9DE500767936 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B1AB26CE9DE500767936 /* Phone.swift */; };
+		8A93B1AF26CE9DE500767936 /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B1AC26CE9DE500767936 /* Computer.swift */; };
+		8A93B1DD26CE9F1000767936 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B1DC26CE9F1000767936 /* AbstractFactory.swift */; };
+		8A93B1E726CE9FB100767936 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B1E626CE9FB100767936 /* AppleFactory.swift */; };
+		8A93B1F126CE9FBB00767936 /* HWFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B1F026CE9FBB00767936 /* HWFactory.swift */; };
 		8AC9B38026870D3100267F8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B37F26870D3100267F8E /* AppDelegate.m */; };
 		8AC9B38326870D3100267F8E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B38226870D3100267F8E /* SceneDelegate.m */; };
 		8AC9B38626870D3100267F8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B38526870D3100267F8E /* ViewController.m */; };
@@ -115,6 +129,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8A93B0D226CE9ACB00767936 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +170,21 @@
 		8A93B0AE26CE949200767936 /* HWComputerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWComputerFactory.swift; sourceTree = "<group>"; };
 		8A93B0B726CE952900767936 /* MacComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacComputer.swift; sourceTree = "<group>"; };
 		8A93B0C026CE953300767936 /* HWComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWComputer.swift; sourceTree = "<group>"; };
+		8A93B0D426CE9ACB00767936 /* 07_抽象工厂 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07_抽象工厂"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A93B0D626CE9ACB00767936 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A93B12826CE9BB500767936 /* HWComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWComputer.swift; sourceTree = "<group>"; };
+		8A93B13226CE9BBE00767936 /* MacComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacComputer.swift; sourceTree = "<group>"; };
+		8A93B13C26CE9BC700767936 /* HWWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWWatch.swift; sourceTree = "<group>"; };
+		8A93B14626CE9BE500767936 /* IPhoneWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneWatch.swift; sourceTree = "<group>"; };
+		8A93B15A26CE9C4000767936 /* HWiPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWiPhone.swift; sourceTree = "<group>"; };
+		8A93B17E26CE9C5E00767936 /* AppleiPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleiPhone.swift; sourceTree = "<group>"; };
+		8A93B18826CE9D5600767936 /* AbstractFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryProtocol.swift; sourceTree = "<group>"; };
+		8A93B1AA26CE9DE500767936 /* Watch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		8A93B1AB26CE9DE500767936 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		8A93B1AC26CE9DE500767936 /* Computer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		8A93B1DC26CE9F1000767936 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		8A93B1E626CE9FB100767936 /* AppleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFactory.swift; sourceTree = "<group>"; };
+		8A93B1F026CE9FBB00767936 /* HWFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWFactory.swift; sourceTree = "<group>"; };
 		8AC9B37B26870D3100267F8E /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC9B37E26870D3100267F8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AC9B37F26870D3100267F8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -263,6 +301,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A93B0D126CE9ACB00767936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AC9B37826870D3100267F8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,6 +410,59 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		8A93B0D526CE9ACB00767936 /* 07_抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				8A93B0D626CE9ACB00767936 /* main.swift */,
+				8A93B0E326CE9AD400767936 /* Classes */,
+			);
+			path = "07_抽象工厂";
+			sourceTree = "<group>";
+		};
+		8A93B0E326CE9AD400767936 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A93B18826CE9D5600767936 /* AbstractFactoryProtocol.swift */,
+				8A93B1DC26CE9F1000767936 /* AbstractFactory.swift */,
+				8A93B1E626CE9FB100767936 /* AppleFactory.swift */,
+				8A93B1F026CE9FBB00767936 /* HWFactory.swift */,
+				8A93B20C26CEA75A00767936 /* Computer */,
+				8A93B20B26CEA75500767936 /* Watch */,
+				8A93B20A26CEA74900767936 /* iPhone */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8A93B20A26CEA74900767936 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8A93B1AB26CE9DE500767936 /* Phone.swift */,
+				8A93B17E26CE9C5E00767936 /* AppleiPhone.swift */,
+				8A93B15A26CE9C4000767936 /* HWiPhone.swift */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		8A93B20B26CEA75500767936 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				8A93B1AA26CE9DE500767936 /* Watch.swift */,
+				8A93B14626CE9BE500767936 /* IPhoneWatch.swift */,
+				8A93B13C26CE9BC700767936 /* HWWatch.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		8A93B20C26CEA75A00767936 /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				8A93B1AC26CE9DE500767936 /* Computer.swift */,
+				8A93B13226CE9BBE00767936 /* MacComputer.swift */,
+				8A93B12826CE9BB500767936 /* HWComputer.swift */,
+			);
+			path = Computer;
+			sourceTree = "<group>";
+		};
 		8AC9B37226870D3100267F8E = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +473,7 @@
 				B385F9A626CE575A00317C0E /* 04_工厂方法模式 */,
 				8A93B03E26CE8C9700767936 /* 05_简单工厂 */,
 				8A93B07E26CE933A00767936 /* 06_工厂方法 */,
+				8A93B0D526CE9ACB00767936 /* 07_抽象工厂 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -389,6 +488,7 @@
 				B385F9A526CE575A00317C0E /* 04_工厂方法模式.app */,
 				8A93B03D26CE8C9700767936 /* 05_简单工厂 */,
 				8A93B07D26CE933A00767936 /* 06_工厂方法 */,
+				8A93B0D426CE9ACB00767936 /* 07_抽象工厂 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -595,6 +695,23 @@
 			productReference = 8A93B07D26CE933A00767936 /* 06_工厂方法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8A93B0D326CE9ACB00767936 /* 07_抽象工厂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A93B0D826CE9ACB00767936 /* Build configuration list for PBXNativeTarget "07_抽象工厂" */;
+			buildPhases = (
+				8A93B0D026CE9ACB00767936 /* Sources */,
+				8A93B0D126CE9ACB00767936 /* Frameworks */,
+				8A93B0D226CE9ACB00767936 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_抽象工厂";
+			productName = "07_抽象工厂";
+			productReference = 8A93B0D426CE9ACB00767936 /* 07_抽象工厂 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8AC9B37A26870D3100267F8E /* DesignPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC9B39426870D3100267F8E /* Build configuration list for PBXNativeTarget "DesignPattern" */;
@@ -681,6 +798,9 @@
 					8A93B07C26CE933A00767936 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					8A93B0D326CE9ACB00767936 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					8AC9B37A26870D3100267F8E = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -715,6 +835,7 @@
 				B385F9A426CE575A00317C0E /* 04_工厂方法模式 */,
 				8A93B03C26CE8C9700767936 /* 05_简单工厂 */,
 				8A93B07C26CE933A00767936 /* 06_工厂方法 */,
+				8A93B0D326CE9ACB00767936 /* 07_抽象工厂 */,
 			);
 		};
 /* End PBXProject section */
@@ -814,6 +935,27 @@
 				8A93B09426CE93CC00767936 /* ComputerFactory.swift in Sources */,
 				8A93B0A626CE947B00767936 /* MacComputerFactory.swift in Sources */,
 				8A93B0AF26CE949200767936 /* HWComputerFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A93B0D026CE9ACB00767936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A93B1DD26CE9F1000767936 /* AbstractFactory.swift in Sources */,
+				8A93B1E726CE9FB100767936 /* AppleFactory.swift in Sources */,
+				8A93B1AE26CE9DE500767936 /* Phone.swift in Sources */,
+				8A93B13326CE9BBE00767936 /* MacComputer.swift in Sources */,
+				8A93B13D26CE9BC700767936 /* HWWatch.swift in Sources */,
+				8A93B15B26CE9C4000767936 /* HWiPhone.swift in Sources */,
+				8A93B18926CE9D5600767936 /* AbstractFactoryProtocol.swift in Sources */,
+				8A93B1F126CE9FBB00767936 /* HWFactory.swift in Sources */,
+				8A93B17F26CE9C5E00767936 /* AppleiPhone.swift in Sources */,
+				8A93B12926CE9BB500767936 /* HWComputer.swift in Sources */,
+				8A93B14726CE9BE500767936 /* IPhoneWatch.swift in Sources */,
+				8A93B1AF26CE9DE500767936 /* Computer.swift in Sources */,
+				8A93B1AD26CE9DE500767936 /* Watch.swift in Sources */,
+				8A93B0D726CE9ACB00767936 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,6 +1212,36 @@
 			name = Debug;
 		};
 		8A93B08326CE933A00767936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A93B0D926CE9ACB00767936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A93B0DA26CE9ACB00767936 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1386,6 +1558,15 @@
 			buildConfigurations = (
 				8A93B08226CE933A00767936 /* Debug */,
 				8A93B08326CE933A00767936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A93B0D826CE9ACB00767936 /* Build configuration list for PBXNativeTarget "07_抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A93B0D926CE9ACB00767936 /* Debug */,
+				8A93B0DA26CE9ACB00767936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
