@@ -26,6 +26,12 @@
 		8A93B06426CE8D1D00767936 /* HuaweiComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B06326CE8D1D00767936 /* HuaweiComputer.swift */; };
 		8A93B06C26CE920500767936 /* HPComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B06B26CE920500767936 /* HPComputer.swift */; };
 		8A93B08026CE933A00767936 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B07F26CE933A00767936 /* main.swift */; };
+		8A93B09426CE93CC00767936 /* ComputerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B09326CE93CC00767936 /* ComputerFactory.swift */; };
+		8A93B09D26CE945300767936 /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B09C26CE945300767936 /* Computer.swift */; };
+		8A93B0A626CE947B00767936 /* MacComputerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0A526CE947B00767936 /* MacComputerFactory.swift */; };
+		8A93B0AF26CE949200767936 /* HWComputerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0AE26CE949200767936 /* HWComputerFactory.swift */; };
+		8A93B0B826CE952900767936 /* MacComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0B726CE952900767936 /* MacComputer.swift */; };
+		8A93B0C126CE953300767936 /* HWComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B0C026CE953300767936 /* HWComputer.swift */; };
 		8AC9B38026870D3100267F8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B37F26870D3100267F8E /* AppDelegate.m */; };
 		8AC9B38326870D3100267F8E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B38226870D3100267F8E /* SceneDelegate.m */; };
 		8AC9B38626870D3100267F8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B38526870D3100267F8E /* ViewController.m */; };
@@ -135,6 +141,12 @@
 		8A93B06B26CE920500767936 /* HPComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPComputer.swift; sourceTree = "<group>"; };
 		8A93B07D26CE933A00767936 /* 06_工厂方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_工厂方法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A93B07F26CE933A00767936 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A93B09326CE93CC00767936 /* ComputerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerFactory.swift; sourceTree = "<group>"; };
+		8A93B09C26CE945300767936 /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		8A93B0A526CE947B00767936 /* MacComputerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacComputerFactory.swift; sourceTree = "<group>"; };
+		8A93B0AE26CE949200767936 /* HWComputerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWComputerFactory.swift; sourceTree = "<group>"; };
+		8A93B0B726CE952900767936 /* MacComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacComputer.swift; sourceTree = "<group>"; };
+		8A93B0C026CE953300767936 /* HWComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWComputer.swift; sourceTree = "<group>"; };
 		8AC9B37B26870D3100267F8E /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC9B37E26870D3100267F8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AC9B37F26870D3100267F8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -343,6 +355,12 @@
 		8A93B08B26CE934000767936 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8A93B09326CE93CC00767936 /* ComputerFactory.swift */,
+				8A93B0A526CE947B00767936 /* MacComputerFactory.swift */,
+				8A93B0AE26CE949200767936 /* HWComputerFactory.swift */,
+				8A93B09C26CE945300767936 /* Computer.swift */,
+				8A93B0B726CE952900767936 /* MacComputer.swift */,
+				8A93B0C026CE953300767936 /* HWComputer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -511,8 +529,8 @@
 			children = (
 				B385F9C626CE5B5D00317C0E /* InterfaceFactory.swift */,
 				B385F9C126CE5B5D00317C0E /* AddFactory.swift */,
-				B385F9C426CE5B5D00317C0E /* SubFactory.swift */,
 				B385F9C026CE5B5D00317C0E /* DivFactory.swift */,
+				B385F9C426CE5B5D00317C0E /* SubFactory.swift */,
 				B385F9C726CE5B5D00317C0E /* MulFactory.swift */,
 				B385F9D826CE5B6E00317C0E /* Operation.swift */,
 				B385F9BF26CE5B5D00317C0E /* OperationAdd.swift */,
@@ -789,7 +807,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A93B0B826CE952900767936 /* MacComputer.swift in Sources */,
+				8A93B0C126CE953300767936 /* HWComputer.swift in Sources */,
+				8A93B09D26CE945300767936 /* Computer.swift in Sources */,
 				8A93B08026CE933A00767936 /* main.swift in Sources */,
+				8A93B09426CE93CC00767936 /* ComputerFactory.swift in Sources */,
+				8A93B0A626CE947B00767936 /* MacComputerFactory.swift in Sources */,
+				8A93B0AF26CE949200767936 /* HWComputerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
