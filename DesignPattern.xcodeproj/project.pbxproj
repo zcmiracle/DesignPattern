@@ -86,8 +86,8 @@
 		B385F9D126CE5B5D00317C0E /* MulFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C726CE5B5D00317C0E /* MulFactory.swift */; };
 		B385F9D926CE5B6E00317C0E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9D826CE5B6E00317C0E /* Operation.swift */; };
 		B3991AB726DF19DA00C2346B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AB626DF19DA00C2346B /* main.swift */; };
-		B3991AEF26DF1D2A00C2346B /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AEE26DF1D2A00C2346B /* FactoryProtocol.swift */; };
 		B3991AF926DF1D3700C2346B /* ComputerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */; };
+		B3991B1B26DF298600C2346B /* ComputerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B1A26DF298600C2346B /* ComputerFactoryProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -224,8 +224,8 @@
 		B385F9D826CE5B6E00317C0E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		B3991AB426DF19DA00C2346B /* 01_外观模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_外观模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3991AB626DF19DA00C2346B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B3991AEE26DF1D2A00C2346B /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
 		B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerProtocol.swift; sourceTree = "<group>"; };
+		B3991B1A26DF298600C2346B /* ComputerFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerFactoryProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,7 +536,7 @@
 		B3991AED26DF1D1100C2346B /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				B3991AEE26DF1D2A00C2346B /* FactoryProtocol.swift */,
+				B3991B1A26DF298600C2346B /* ComputerFactoryProtocol.swift */,
 				B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */,
 			);
 			path = Protocol;
@@ -819,8 +819,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A93B0B826CE952900767936 /* MacComputer.swift in Sources */,
+				B3991B1B26DF298600C2346B /* ComputerFactoryProtocol.swift in Sources */,
 				8A93B0C126CE953300767936 /* HWComputer.swift in Sources */,
-				B3991AEF26DF1D2A00C2346B /* FactoryProtocol.swift in Sources */,
 				8A93B09D26CE945300767936 /* Computer.swift in Sources */,
 				8A93B08026CE933A00767936 /* main.swift in Sources */,
 				8A93B09426CE93CC00767936 /* ComputerFactory.swift in Sources */,

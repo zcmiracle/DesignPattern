@@ -8,6 +8,5 @@
 import Foundation
 
 class Computer {
-    
     func productName() -> String? { nil }
 }

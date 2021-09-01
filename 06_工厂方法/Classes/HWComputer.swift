@@ -7,19 +7,16 @@
 
 import Foundation
 
-// 继承
-class HWComputer: Computer {
+// 继承Computer   协议ComputerProtocol
+class HWComputer: Computer, ComputerProtocol {
     
+    // 继承
     override func productName() -> String? {
         return "HuaWei"
     }
-}
-
-// 协议
-extension HWComputer: ComputerProtocol {
-
-    func product_name() -> String {
+    
+    // 协议
+    func product_name() -> String? {
         return "HuaWei"
     }
 }
-

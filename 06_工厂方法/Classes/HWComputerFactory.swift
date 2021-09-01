@@ -7,18 +7,16 @@
 
 import Foundation
 
-// 继承
-class HWComputerFactory: ComputerFactory {
+// 继承ComputerFactory    协议FactoryProtocol
+class HWComputerFactory: ComputerFactory, ComputerFactoryProtocol {
 
-    override func createComputer() -> Computer {
+    // 继承
+    override func createComputer() -> Computer? {
         HWComputer()
     }
-}
-
-// 协议接口
-extension HWComputerFactory: FactoryProtocol {
     
-    func create_computer() -> Computer {
+    // 协议
+    func create_computer() -> ComputerProtocol? {
         HWComputer()
     }
 }

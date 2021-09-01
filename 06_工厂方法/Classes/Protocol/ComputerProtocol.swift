@@ -10,5 +10,5 @@ import Foundation
 // 定义一组协议
 protocol ComputerProtocol {
 
-    func product_name() -> String
+    func product_name() -> String?
 }

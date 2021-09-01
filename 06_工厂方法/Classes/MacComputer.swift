@@ -7,18 +7,16 @@
 
 import Foundation
 
-// 继承
-class MacComputer: Computer {
+// 继承Computer   协议ComputerProtocol
+class MacComputer: Computer, ComputerProtocol {
 
-    override func productName() -> String {
+    // 继承
+    override func productName() -> String? {
         return "Mac"
     }
-}
-
-// 协议
-extension MacComputer: ComputerProtocol {
-
-    func product_name() -> String {
+    
+    // 协议
+    func product_name() -> String? {
         return "Mac"
     }
 }
