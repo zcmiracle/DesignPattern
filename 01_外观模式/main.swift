@@ -7,4 +7,8 @@
 
 import Foundation
 
-
+var fund = ZCFund()
+// 基金购买
+fund.buyFund()
+// 基金赎回
+fund.sellFund()

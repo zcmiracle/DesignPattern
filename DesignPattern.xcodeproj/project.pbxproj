@@ -88,6 +88,12 @@
 		B3991AB726DF19DA00C2346B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AB626DF19DA00C2346B /* main.swift */; };
 		B3991AF926DF1D3700C2346B /* ComputerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */; };
 		B3991B1B26DF298600C2346B /* ComputerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B1A26DF298600C2346B /* ComputerFactoryProtocol.swift */; };
+		B3991B5626DF2C4100C2346B /* ZCFund.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B5526DF2C4100C2346B /* ZCFund.swift */; };
+		B3991B6A26DF2CEF00C2346B /* ZCStock2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B6726DF2CEF00C2346B /* ZCStock2.swift */; };
+		B3991B6B26DF2CEF00C2346B /* ZCStock1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B6826DF2CEF00C2346B /* ZCStock1.swift */; };
+		B3991B6C26DF2CEF00C2346B /* ZCStock3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B6926DF2CEF00C2346B /* ZCStock3.swift */; };
+		B3991B7726DF2D9A00C2346B /* NationalDebt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B7626DF2D9A00C2346B /* NationalDebt.swift */; };
+		B3991B8A26DF2DD400C2346B /* Realty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B8926DF2DD400C2346B /* Realty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -226,6 +232,13 @@
 		B3991AB626DF19DA00C2346B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerProtocol.swift; sourceTree = "<group>"; };
 		B3991B1A26DF298600C2346B /* ComputerFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerFactoryProtocol.swift; sourceTree = "<group>"; };
+		B3991B5526DF2C4100C2346B /* ZCFund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCFund.swift; sourceTree = "<group>"; };
+		B3991B6726DF2CEF00C2346B /* ZCStock2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCStock2.swift; sourceTree = "<group>"; };
+		B3991B6826DF2CEF00C2346B /* ZCStock1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCStock1.swift; sourceTree = "<group>"; };
+		B3991B6926DF2CEF00C2346B /* ZCStock3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCStock3.swift; sourceTree = "<group>"; };
+		B3991B7626DF2D9A00C2346B /* NationalDebt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalDebt.swift; sourceTree = "<group>"; };
+		B3991B8926DF2DD400C2346B /* Realty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realty.swift; sourceTree = "<group>"; };
+		B3991BA326DF2F7F00C2346B /* 外观模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外观模式.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,6 +542,8 @@
 			isa = PBXGroup;
 			children = (
 				B3991AB626DF19DA00C2346B /* main.swift */,
+				B3991BA326DF2F7F00C2346B /* 外观模式.md */,
+				B3991B2C26DF2B5E00C2346B /* Classes */,
 			);
 			path = "01_外观模式";
 			sourceTree = "<group>";
@@ -540,6 +555,51 @@
 				B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B3991B2C26DF2B5E00C2346B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3991B5426DF2C3600C2346B /* 基金 */,
+				B3991B5326DF2C2F00C2346B /* 股票 */,
+				B3991B7526DF2D8600C2346B /* 国债 */,
+				B3991B8826DF2DCA00C2346B /* 房地产 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3991B5326DF2C2F00C2346B /* 股票 */ = {
+			isa = PBXGroup;
+			children = (
+				B3991B6826DF2CEF00C2346B /* ZCStock1.swift */,
+				B3991B6726DF2CEF00C2346B /* ZCStock2.swift */,
+				B3991B6926DF2CEF00C2346B /* ZCStock3.swift */,
+			);
+			path = "股票";
+			sourceTree = "<group>";
+		};
+		B3991B5426DF2C3600C2346B /* 基金 */ = {
+			isa = PBXGroup;
+			children = (
+				B3991B5526DF2C4100C2346B /* ZCFund.swift */,
+			);
+			path = "基金";
+			sourceTree = "<group>";
+		};
+		B3991B7526DF2D8600C2346B /* 国债 */ = {
+			isa = PBXGroup;
+			children = (
+				B3991B7626DF2D9A00C2346B /* NationalDebt.swift */,
+			);
+			path = "国债";
+			sourceTree = "<group>";
+		};
+		B3991B8826DF2DCA00C2346B /* 房地产 */ = {
+			isa = PBXGroup;
+			children = (
+				B3991B8926DF2DD400C2346B /* Realty.swift */,
+			);
+			path = "房地产";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -906,7 +966,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3991B6A26DF2CEF00C2346B /* ZCStock2.swift in Sources */,
+				B3991B6C26DF2CEF00C2346B /* ZCStock3.swift in Sources */,
+				B3991B8A26DF2DD400C2346B /* Realty.swift in Sources */,
+				B3991B7726DF2D9A00C2346B /* NationalDebt.swift in Sources */,
+				B3991B5626DF2C4100C2346B /* ZCFund.swift in Sources */,
 				B3991AB726DF19DA00C2346B /* main.swift in Sources */,
+				B3991B6B26DF2CEF00C2346B /* ZCStock1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
