@@ -9,6 +9,7 @@ import Foundation
 
 class MacComputer: Computer {
     
+    // 重写 override
     override func productName() -> String? {
         "Mac"
     }
