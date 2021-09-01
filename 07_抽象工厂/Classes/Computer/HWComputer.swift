@@ -8,6 +8,7 @@
 import Foundation
 
 class HWComputer: Computer {
+    
     func productName() -> String {
         "HWComputer"
     }
