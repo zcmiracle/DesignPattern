@@ -9,10 +9,15 @@ import Foundation
 
 // mac电脑
 let macComputerFactory = MacComputerFactory()
-let macComputer = macComputerFactory.createComputer()
-print(macComputer.productName() as Any)
+let macComputer1 = macComputerFactory.createComputer()  // 继承
+let macComputer2 = macComputerFactory.create_computer() // 协议
+print(macComputer1.productName() as Any)
+print(macComputer2.productName() as Any)
 
 // 华为电脑
 let hwComputerFactory = HWComputerFactory()
-let hwComputer = hwComputerFactory.createComputer()
-print(hwComputer.productName() as Any)
+let hwComputer1 = hwComputerFactory.createComputer()    // 继承
+let hwComputer2 = hwComputerFactory.create_computer()   // 协议
+print(hwComputer1.productName() as Any)
+print(hwComputer2.productName() as Any)
+

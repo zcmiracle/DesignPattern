@@ -7,8 +7,19 @@
 
 import Foundation
 
+// 继承
 class HWComputer: Computer {
-    func productName() -> String? {
+    
+    override func productName() -> String? {
         return "HuaWei"
     }
 }
+
+// 协议
+extension HWComputer: ComputerProtocol {
+
+    func product_name() -> String {
+        return "HuaWei"
+    }
+}
+

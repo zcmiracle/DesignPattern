@@ -7,10 +7,7 @@
 
 import Foundation
 
-protocol Computer {
-    func productName() -> String
+class Computer {
+    
+    func productName() -> String? { nil }
 }
-
-//class Computer {
-//    func productName() -> String? { nil }
-//}

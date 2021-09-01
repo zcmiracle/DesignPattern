@@ -7,14 +7,18 @@
 
 import Foundation
 
+// 继承
 class MacComputer: Computer {
 
-    func productName() -> String {
+    override func productName() -> String {
         return "Mac"
     }
-    
-//    override func productName() -> String? {
-//        return "Mac"
-//    }
-    
+}
+
+// 协议
+extension MacComputer: ComputerProtocol {
+
+    func product_name() -> String {
+        return "Mac"
+    }
 }

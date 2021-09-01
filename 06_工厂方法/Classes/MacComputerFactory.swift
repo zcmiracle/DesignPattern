@@ -7,9 +7,18 @@
 
 import Foundation
 
+// 继承
 class MacComputerFactory: ComputerFactory {
     
-    func createComputer() -> Computer {
+    override func createComputer() -> Computer {
+        MacComputer()
+    }
+}
+
+// 协议接口
+extension MacComputerFactory: FactoryProtocol {
+    
+    func create_computer() -> Computer {
         MacComputer()
     }
 }

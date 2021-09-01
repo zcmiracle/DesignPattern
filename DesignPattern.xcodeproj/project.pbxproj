@@ -86,6 +86,8 @@
 		B385F9D126CE5B5D00317C0E /* MulFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C726CE5B5D00317C0E /* MulFactory.swift */; };
 		B385F9D926CE5B6E00317C0E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9D826CE5B6E00317C0E /* Operation.swift */; };
 		B3991AB726DF19DA00C2346B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AB626DF19DA00C2346B /* main.swift */; };
+		B3991AEF26DF1D2A00C2346B /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AEE26DF1D2A00C2346B /* FactoryProtocol.swift */; };
+		B3991AF926DF1D3700C2346B /* ComputerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -222,6 +224,8 @@
 		B385F9D826CE5B6E00317C0E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		B3991AB426DF19DA00C2346B /* 01_外观模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_外观模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3991AB626DF19DA00C2346B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3991AEE26DF1D2A00C2346B /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
+		B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +349,7 @@
 		8A93B08B26CE934000767936 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B3991AED26DF1D1100C2346B /* Protocol */,
 				8A93B09326CE93CC00767936 /* ComputerFactory.swift */,
 				8A93B0A526CE947B00767936 /* MacComputerFactory.swift */,
 				8A93B0AE26CE949200767936 /* HWComputerFactory.swift */,
@@ -526,6 +531,15 @@
 				B3991AB626DF19DA00C2346B /* main.swift */,
 			);
 			path = "01_外观模式";
+			sourceTree = "<group>";
+		};
+		B3991AED26DF1D1100C2346B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B3991AEE26DF1D2A00C2346B /* FactoryProtocol.swift */,
+				B3991AF826DF1D3700C2346B /* ComputerProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -806,10 +820,12 @@
 			files = (
 				8A93B0B826CE952900767936 /* MacComputer.swift in Sources */,
 				8A93B0C126CE953300767936 /* HWComputer.swift in Sources */,
+				B3991AEF26DF1D2A00C2346B /* FactoryProtocol.swift in Sources */,
 				8A93B09D26CE945300767936 /* Computer.swift in Sources */,
 				8A93B08026CE933A00767936 /* main.swift in Sources */,
 				8A93B09426CE93CC00767936 /* ComputerFactory.swift in Sources */,
 				8A93B0A626CE947B00767936 /* MacComputerFactory.swift in Sources */,
+				B3991AF926DF1D3700C2346B /* ComputerProtocol.swift in Sources */,
 				8A93B0AF26CE949200767936 /* HWComputerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1014,7 +1030,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1029,7 +1045,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1044,7 +1060,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1059,7 +1075,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1074,7 +1090,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1089,7 +1105,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1266,7 +1282,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1288,7 +1304,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1310,7 +1326,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1332,7 +1348,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
