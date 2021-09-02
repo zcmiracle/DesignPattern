@@ -53,6 +53,12 @@
 		8AC9B38B26870D3100267F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9B38A26870D3100267F8E /* Assets.xcassets */; };
 		8AC9B38E26870D3100267F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9B38C26870D3100267F8E /* LaunchScreen.storyboard */; };
 		8AC9B39126870D3100267F8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B39026870D3100267F8E /* main.m */; };
+		B36C706E26E0CFB6000C2DFE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C706D26E0CFB6000C2DFE /* main.swift */; };
+		B36C708626E0D0EE000C2DFE /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C708526E0D0EE000C2DFE /* Component.swift */; };
+		B36C709126E0D110000C2DFE /* ConcreteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C709026E0D110000C2DFE /* ConcreteComponent.swift */; };
+		B36C709C26E0D127000C2DFE /* ConcreteDecoratorA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C709B26E0D127000C2DFE /* ConcreteDecoratorA.swift */; };
+		B36C70A726E0D137000C2DFE /* ConcreteDecoratorB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C70A626E0D137000C2DFE /* ConcreteDecoratorB.swift */; };
+		B36C70B226E0D149000C2DFE /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C70B126E0D149000C2DFE /* Decorator.swift */; };
 		B385F81126CDEA6D00317C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F81026CDEA6D00317C0E /* AppDelegate.swift */; };
 		B385F81326CDEA6D00317C0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F81226CDEA6D00317C0E /* SceneDelegate.swift */; };
 		B385F81526CDEA6D00317C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F81426CDEA6D00317C0E /* ViewController.swift */; };
@@ -116,6 +122,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8A93B0D226CE9ACB00767936 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B36C706926E0CFB6000C2DFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -192,6 +207,13 @@
 		8AC9B38D26870D3100267F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AC9B38F26870D3100267F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC9B39026870D3100267F8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08_装饰模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36C706D26E0CFB6000C2DFE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B36C708526E0D0EE000C2DFE /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		B36C709026E0D110000C2DFE /* ConcreteComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteComponent.swift; sourceTree = "<group>"; };
+		B36C709B26E0D127000C2DFE /* ConcreteDecoratorA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteDecoratorA.swift; sourceTree = "<group>"; };
+		B36C70A626E0D137000C2DFE /* ConcreteDecoratorB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteDecoratorB.swift; sourceTree = "<group>"; };
+		B36C70B126E0D149000C2DFE /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		B385F80E26CDEA6D00317C0E /* 03_工厂方法模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03_工厂方法模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B385F81026CDEA6D00317C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B385F81226CDEA6D00317C0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -271,6 +293,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8AC9B37826870D3100267F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36C706826E0CFB6000C2DFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,6 +466,7 @@
 				8A93B03E26CE8C9700767936 /* 05_简单工厂 */,
 				8A93B07E26CE933A00767936 /* 06_工厂方法 */,
 				8A93B0D526CE9ACB00767936 /* 07_抽象工厂 */,
+				B36C706C26E0CFB6000C2DFE /* 08_装饰模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -452,6 +482,7 @@
 				8A93B07D26CE933A00767936 /* 06_工厂方法 */,
 				8A93B0D426CE9ACB00767936 /* 07_抽象工厂 */,
 				B3991AB426DF19DA00C2346B /* 01_外观模式 */,
+				B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -472,6 +503,27 @@
 				8AC9B39026870D3100267F8E /* main.m */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		B36C706C26E0CFB6000C2DFE /* 08_装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B36C706D26E0CFB6000C2DFE /* main.swift */,
+				B36C707B26E0CFBA000C2DFE /* Classes */,
+			);
+			path = "08_装饰模式";
+			sourceTree = "<group>";
+		};
+		B36C707B26E0CFBA000C2DFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B36C708526E0D0EE000C2DFE /* Component.swift */,
+				B36C709026E0D110000C2DFE /* ConcreteComponent.swift */,
+				B36C709B26E0D127000C2DFE /* ConcreteDecoratorA.swift */,
+				B36C70A626E0D137000C2DFE /* ConcreteDecoratorB.swift */,
+				B36C70B126E0D149000C2DFE /* Decorator.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B385F80F26CDEA6D00317C0E /* 03_工厂方法模式 */ = {
@@ -690,6 +742,23 @@
 			productReference = 8AC9B37B26870D3100267F8E /* DesignPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B36C706A26E0CFB6000C2DFE /* 08_装饰模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36C707126E0CFB6000C2DFE /* Build configuration list for PBXNativeTarget "08_装饰模式" */;
+			buildPhases = (
+				B36C706726E0CFB6000C2DFE /* Sources */,
+				B36C706826E0CFB6000C2DFE /* Frameworks */,
+				B36C706926E0CFB6000C2DFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08_装饰模式";
+			productName = "08_装饰者模式";
+			productReference = B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B385F80D26CDEA6D00317C0E /* 03_工厂方法模式 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B385F81F26CDEA7000317C0E /* Build configuration list for PBXNativeTarget "03_工厂方法模式" */;
@@ -765,6 +834,9 @@
 					8AC9B37A26870D3100267F8E = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					B36C706A26E0CFB6000C2DFE = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B385F80D26CDEA6D00317C0E = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -797,6 +869,7 @@
 				8A93B03C26CE8C9700767936 /* 05_简单工厂 */,
 				8A93B07C26CE933A00767936 /* 06_工厂方法 */,
 				8A93B0D326CE9ACB00767936 /* 07_抽象工厂 */,
+				B36C706A26E0CFB6000C2DFE /* 08_装饰模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -919,6 +992,19 @@
 				8AC9B38026870D3100267F8E /* AppDelegate.m in Sources */,
 				8AC9B39126870D3100267F8E /* main.m in Sources */,
 				8AC9B38326870D3100267F8E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36C706726E0CFB6000C2DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C706E26E0CFB6000C2DFE /* main.swift in Sources */,
+				B36C70A726E0D137000C2DFE /* ConcreteDecoratorB.swift in Sources */,
+				B36C709126E0D110000C2DFE /* ConcreteComponent.swift in Sources */,
+				B36C709C26E0D127000C2DFE /* ConcreteDecoratorA.swift in Sources */,
+				B36C708626E0D0EE000C2DFE /* Component.swift in Sources */,
+				B36C70B226E0D149000C2DFE /* Decorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1330,6 +1416,36 @@
 			};
 			name = Release;
 		};
+		B36C706F26E0CFB6000C2DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B36C707026E0CFB6000C2DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		B385F82026CDEA7000317C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1501,6 +1617,15 @@
 			buildConfigurations = (
 				8AC9B39526870D3100267F8E /* Debug */,
 				8AC9B39626870D3100267F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36C707126E0CFB6000C2DFE /* Build configuration list for PBXNativeTarget "08_装饰模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C706F26E0CFB6000C2DFE /* Debug */,
+				B36C707026E0CFB6000C2DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
