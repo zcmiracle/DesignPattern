@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+protocol Component {
+
+    // 定义接口
+    func operation() 
+}

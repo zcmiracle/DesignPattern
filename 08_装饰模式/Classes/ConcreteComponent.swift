@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+// 实现协议
+class ConcreteComponent: Component {
+    
+    func operation() {
+        print("ConcreteComponent具体对象的操作，装饰之前")
+    }
+}
