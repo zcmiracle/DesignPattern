@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         let factory4 = DivFactory()
         var operation4 = factory4.createOperation()
         operation4.numberA = 10
-        operation4.numberB = 20
+        operation4.numberB = 0
         print(operation4.GetResult())
     }
 
