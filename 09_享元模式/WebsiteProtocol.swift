@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol WebsiteProtocol {
+    func use(_ user: User)
+}
