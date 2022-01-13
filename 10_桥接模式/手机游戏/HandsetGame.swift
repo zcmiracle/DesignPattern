@@ -16,4 +16,5 @@ class HandsetGame: HandsetSoft {
     override func run() {
         print("运行手机游戏")
     }
+    
 }

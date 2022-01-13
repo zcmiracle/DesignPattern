@@ -65,6 +65,12 @@
 		B335B36427902BB600B648FA /* HandsetAddressList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B36327902BB600B648FA /* HandsetAddressList.swift */; };
 		B335B37227902FC200B648FA /* HandsetMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B37127902FC200B648FA /* HandsetMP3.swift */; };
 		B335B38A2790301600B648FA /* HandsetBrandS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3892790301600B648FA /* HandsetBrandS.swift */; };
+		B335B39D27903BCA00B648FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B39C27903BCA00B648FA /* main.swift */; };
+		B335B3B227903CA200B648FA /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3B127903CA200B648FA /* Command.swift */; };
+		B335B3CD27903CF700B648FA /* Barbecuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3CC27903CF700B648FA /* Barbecuer.swift */; };
+		B335B3E827903D5D00B648FA /* BakeMuttonCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3E727903D5D00B648FA /* BakeMuttonCommand.swift */; };
+		B335B40227903D7500B648FA /* BakeChickenWingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B40127903D7500B648FA /* BakeChickenWingCommand.swift */; };
+		B335B4282790414700B648FA /* Waiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B4272790414700B648FA /* Waiter.swift */; };
 		B36C706E26E0CFB6000C2DFE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C706D26E0CFB6000C2DFE /* main.swift */; };
 		B36C708626E0D0EE000C2DFE /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C708526E0D0EE000C2DFE /* Component.swift */; };
 		B36C709126E0D110000C2DFE /* ConcreteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C709026E0D110000C2DFE /* ConcreteComponent.swift */; };
@@ -147,6 +153,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B335B2CD279024D300B648FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B335B39827903BC900B648FA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -254,6 +269,13 @@
 		B335B36327902BB600B648FA /* HandsetAddressList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetAddressList.swift; sourceTree = "<group>"; };
 		B335B37127902FC200B648FA /* HandsetMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetMP3.swift; sourceTree = "<group>"; };
 		B335B3892790301600B648FA /* HandsetBrandS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrandS.swift; sourceTree = "<group>"; };
+		B335B39A27903BC900B648FA /* 11_命令模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11_命令模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B335B39C27903BCA00B648FA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B335B3B127903CA200B648FA /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		B335B3CC27903CF700B648FA /* Barbecuer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbecuer.swift; sourceTree = "<group>"; };
+		B335B3E727903D5D00B648FA /* BakeMuttonCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeMuttonCommand.swift; sourceTree = "<group>"; };
+		B335B40127903D7500B648FA /* BakeChickenWingCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\bBakeChickenWingCommand.swift"; sourceTree = "<group>"; };
+		B335B4272790414700B648FA /* Waiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiter.swift; sourceTree = "<group>"; };
 		B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08_装饰模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36C706D26E0CFB6000C2DFE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B36C708526E0D0EE000C2DFE /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
@@ -352,6 +374,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B335B2CC279024D300B648FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B335B39727903BC900B648FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,6 +564,7 @@
 				B36C706C26E0CFB6000C2DFE /* 08_装饰模式 */,
 				B38E3332278F1528007544D8 /* 09_享元模式 */,
 				B335B2D0279024D300B648FA /* 10_桥接模式 */,
+				B335B39B27903BCA00B648FA /* 11_命令模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -553,6 +583,7 @@
 				B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */,
 				B38E3331278F1528007544D8 /* 09_享元模式 */,
 				B335B2CF279024D300B648FA /* 10_桥接模式 */,
+				B335B39A27903BC900B648FA /* 11_命令模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -631,6 +662,51 @@
 				B335B37127902FC200B648FA /* HandsetMP3.swift */,
 			);
 			path = "手机MP3";
+			sourceTree = "<group>";
+		};
+		B335B39B27903BCA00B648FA /* 11_命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B39C27903BCA00B648FA /* main.swift */,
+				B335B3E627903D4B00B648FA /* 具体命令 */,
+				B335B3CB27903CE300B648FA /* 烤肉串者 */,
+				B335B3B027903C7A00B648FA /* 命令 */,
+				B335B3AD27903BE900B648FA /* 服务员 */,
+			);
+			path = "11_命令模式";
+			sourceTree = "<group>";
+		};
+		B335B3AD27903BE900B648FA /* 服务员 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B4272790414700B648FA /* Waiter.swift */,
+			);
+			path = "服务员";
+			sourceTree = "<group>";
+		};
+		B335B3B027903C7A00B648FA /* 命令 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B3B127903CA200B648FA /* Command.swift */,
+			);
+			path = "命令";
+			sourceTree = "<group>";
+		};
+		B335B3CB27903CE300B648FA /* 烤肉串者 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B3CC27903CF700B648FA /* Barbecuer.swift */,
+			);
+			path = "烤肉串者";
+			sourceTree = "<group>";
+		};
+		B335B3E627903D4B00B648FA /* 具体命令 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B3E727903D5D00B648FA /* BakeMuttonCommand.swift */,
+				B335B40127903D7500B648FA /* BakeChickenWingCommand.swift */,
+			);
+			path = "具体命令";
 			sourceTree = "<group>";
 		};
 		B36C706C26E0CFB6000C2DFE /* 08_装饰模式 */ = {
@@ -899,6 +975,23 @@
 			productReference = B335B2CF279024D300B648FA /* 10_桥接模式 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B335B39927903BC900B648FA /* 11_命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B335B39E27903BCA00B648FA /* Build configuration list for PBXNativeTarget "11_命令模式" */;
+			buildPhases = (
+				B335B39627903BC900B648FA /* Sources */,
+				B335B39727903BC900B648FA /* Frameworks */,
+				B335B39827903BC900B648FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11_命令模式";
+			productName = "11_命令模式";
+			productReference = B335B39A27903BC900B648FA /* 11_命令模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B36C706A26E0CFB6000C2DFE /* 08_装饰模式 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36C707126E0CFB6000C2DFE /* Build configuration list for PBXNativeTarget "08_装饰模式" */;
@@ -1011,6 +1104,9 @@
 					B335B2CE279024D300B648FA = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					B335B39927903BC900B648FA = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B36C706A26E0CFB6000C2DFE = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1052,6 +1148,7 @@
 				B36C706A26E0CFB6000C2DFE /* 08_装饰模式 */,
 				B38E3330278F1528007544D8 /* 09_享元模式 */,
 				B335B2CE279024D300B648FA /* 10_桥接模式 */,
+				B335B39927903BC900B648FA /* 11_命令模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -1192,6 +1289,19 @@
 				B335B3082790251900B648FA /* HandsetGameM.swift in Sources */,
 				B335B37227902FC200B648FA /* HandsetMP3.swift in Sources */,
 				B335B2E32790250200B648FA /* HandsetGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B335B39627903BC900B648FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B335B39D27903BCA00B648FA /* main.swift in Sources */,
+				B335B4282790414700B648FA /* Waiter.swift in Sources */,
+				B335B3CD27903CF700B648FA /* Barbecuer.swift in Sources */,
+				B335B3B227903CA200B648FA /* Command.swift in Sources */,
+				B335B40227903D7500B648FA /* BakeChickenWingCommand.swift in Sources */,
+				B335B3E827903D5D00B648FA /* BakeMuttonCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1658,6 +1768,36 @@
 			};
 			name = Release;
 		};
+		B335B39F27903BCA00B648FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B335B3A027903BCA00B648FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		B36C706F26E0CFB6000C2DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1898,6 +2038,15 @@
 			buildConfigurations = (
 				B335B2D4279024D300B648FA /* Debug */,
 				B335B2D5279024D300B648FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B335B39E27903BCA00B648FA /* Build configuration list for PBXNativeTarget "11_命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B335B39F27903BCA00B648FA /* Debug */,
+				B335B3A027903BCA00B648FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,4 +12,5 @@ class HandsetGameN: HandsetGame {
     override func run() {
         print("运行N品牌手游")
     }
+    
 }

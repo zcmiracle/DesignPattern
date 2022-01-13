@@ -9,7 +9,9 @@ import Foundation
 
 
 class HandsetGameM: HandsetGame {
+    
     override func run() {
         print("运行M品牌手游")
     }
+    
 }
