@@ -26,15 +26,19 @@ class Waiter {
     
     // 取消订单
     func cancelOrder(command: Command) {
-        
-        var commandArr: [Command] = []
-        for cmd in commands {
-            if cmd !== command {
-                commandArr.append(command)
+        for index in 0..<commands.count {
+            let cmd = commands[index]
+            if cmd === command {
+                // 记录index位置
+                commands.remove(at: index)
+                if cmd is BakeMuttonCommand {
+                    print("取消订单：烤羊肉, 时间:\(NSDate.now)")
+                } else if cmd is BakeChickenWingCommand {
+                    print("取消订单：烤鸡翅, 时间:\(NSDate.now)")
+                }
+                return
             }
-            self.commands = commandArr
         }
-        print("取消订单：, 时间:\(NSDate.now)")
     }
     
     // 通知执行
