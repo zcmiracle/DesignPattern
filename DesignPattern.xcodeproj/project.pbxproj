@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0E87302790667300D78738 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E872F2790667300D78738 /* main.swift */; };
+		8A0E8742279067C400D78738 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E8741279067C400D78738 /* Component.swift */; };
+		8A0E87512790684D00D78738 /* Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E87502790684D00D78738 /* Leaf.swift */; };
+		8A0E8760279068B200D78738 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E875F279068B200D78738 /* Composite.swift */; };
 		8A7EA24426CD4BB900B4A349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EA24326CD4BB900B4A349 /* AppDelegate.swift */; };
 		8A7EA24626CD4BB900B4A349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EA24526CD4BB900B4A349 /* SceneDelegate.swift */; };
 		8A7EA24826CD4BB900B4A349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EA24726CD4BB900B4A349 /* ViewController.swift */; };
@@ -125,6 +129,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8A0E872B2790667300D78738 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8A93B03B26CE8C9700767936 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +213,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A0E872D2790667300D78738 /* 12_组合模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12_组合模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0E872F2790667300D78738 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A0E8741279067C400D78738 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		8A0E87502790684D00D78738 /* Leaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaf.swift; sourceTree = "<group>"; };
+		8A0E875F279068B200D78738 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		8A7EA24126CD4BB900B4A349 /* 02_简单工厂模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02_简单工厂模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7EA24326CD4BB900B4A349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A7EA24526CD4BB900B4A349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -338,6 +356,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A0E872A2790667300D78738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A7EA23E26CD4BB900B4A349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +450,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0E872E2790667300D78738 /* 12_组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8A0E872F2790667300D78738 /* main.swift */,
+				8A0E8741279067C400D78738 /* Component.swift */,
+				8A0E87502790684D00D78738 /* Leaf.swift */,
+				8A0E875F279068B200D78738 /* Composite.swift */,
+			);
+			path = "12_组合模式";
+			sourceTree = "<group>";
+		};
 		8A7EA24226CD4BB900B4A349 /* 02_简单工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +601,7 @@
 				B38E3332278F1528007544D8 /* 09_享元模式 */,
 				B335B2D0279024D300B648FA /* 10_桥接模式 */,
 				B335B39B27903BCA00B648FA /* 11_命令模式 */,
+				8A0E872E2790667300D78738 /* 12_组合模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -584,6 +621,7 @@
 				B38E3331278F1528007544D8 /* 09_享元模式 */,
 				B335B2CF279024D300B648FA /* 10_桥接模式 */,
 				B335B39A27903BC900B648FA /* 11_命令模式 */,
+				8A0E872D2790667300D78738 /* 12_组合模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -873,6 +911,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8A0E872C2790667300D78738 /* 12_组合模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0E87332790667300D78738 /* Build configuration list for PBXNativeTarget "12_组合模式" */;
+			buildPhases = (
+				8A0E87292790667300D78738 /* Sources */,
+				8A0E872A2790667300D78738 /* Frameworks */,
+				8A0E872B2790667300D78738 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12_组合模式";
+			productName = "12_组合模式";
+			productReference = 8A0E872D2790667300D78738 /* 12_组合模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8A7EA24026CD4BB900B4A349 /* 02_简单工厂模式 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7EA25226CD4BB900B4A349 /* Build configuration list for PBXNativeTarget "02_简单工厂模式" */;
@@ -1083,9 +1138,12 @@
 		8AC9B37326870D3100267F8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					8A0E872C2790667300D78738 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					8A7EA24026CD4BB900B4A349 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -1149,6 +1207,7 @@
 				B38E3330278F1528007544D8 /* 09_享元模式 */,
 				B335B2CE279024D300B648FA /* 10_桥接模式 */,
 				B335B39927903BC900B648FA /* 11_命令模式 */,
+				8A0E872C2790667300D78738 /* 12_组合模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -1197,6 +1256,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A0E87292790667300D78738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0E87512790684D00D78738 /* Leaf.swift in Sources */,
+				8A0E8760279068B200D78738 /* Composite.swift in Sources */,
+				8A0E87302790667300D78738 /* main.swift in Sources */,
+				8A0E8742279067C400D78738 /* Component.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A7EA23D26CD4BB900B4A349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1454,6 +1524,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8A0E87312790667300D78738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A0E87322790667300D78738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		8A7EA25326CD4BB900B4A349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1979,6 +2079,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A0E87332790667300D78738 /* Build configuration list for PBXNativeTarget "12_组合模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0E87312790667300D78738 /* Debug */,
+				8A0E87322790667300D78738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8A7EA25226CD4BB900B4A349 /* Build configuration list for PBXNativeTarget "02_简单工厂模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
