@@ -54,6 +54,17 @@
 		8AC9B38E26870D3100267F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9B38C26870D3100267F8E /* LaunchScreen.storyboard */; };
 		8AC9B39126870D3100267F8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B39026870D3100267F8E /* main.m */; };
 		B335B2AC2790185500B648FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B2AB2790185500B648FA /* User.swift */; };
+		B335B2D2279024D300B648FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B2D1279024D300B648FA /* main.swift */; };
+		B335B2E32790250200B648FA /* HandsetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B2E22790250200B648FA /* HandsetGame.swift */; };
+		B335B3082790251900B648FA /* HandsetGameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3072790251900B648FA /* HandsetGameM.swift */; };
+		B335B3152790252300B648FA /* HandsetGameN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3142790252300B648FA /* HandsetGameN.swift */; };
+		B335B322279025A100B648FA /* HandsetBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B321279025A100B648FA /* HandsetBrand.swift */; };
+		B335B32F279025D300B648FA /* HandsetSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B32E279025D300B648FA /* HandsetSoft.swift */; };
+		B335B33C279026A600B648FA /* HandsetBrandM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B33B279026A600B648FA /* HandsetBrandM.swift */; };
+		B335B349279026DA00B648FA /* HandsetBrandN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B348279026DA00B648FA /* HandsetBrandN.swift */; };
+		B335B36427902BB600B648FA /* HandsetAddressList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B36327902BB600B648FA /* HandsetAddressList.swift */; };
+		B335B37227902FC200B648FA /* HandsetMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B37127902FC200B648FA /* HandsetMP3.swift */; };
+		B335B38A2790301600B648FA /* HandsetBrandS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B3892790301600B648FA /* HandsetBrandS.swift */; };
 		B36C706E26E0CFB6000C2DFE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C706D26E0CFB6000C2DFE /* main.swift */; };
 		B36C708626E0D0EE000C2DFE /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C708526E0D0EE000C2DFE /* Component.swift */; };
 		B36C709126E0D110000C2DFE /* ConcreteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C709026E0D110000C2DFE /* ConcreteComponent.swift */; };
@@ -127,6 +138,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8A93B0D226CE9ACB00767936 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B335B2CD279024D300B648FA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -222,6 +242,18 @@
 		8AC9B38F26870D3100267F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC9B39026870D3100267F8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B335B2AB2790185500B648FA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B335B2CF279024D300B648FA /* 10_桥接模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10_桥接模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B335B2D1279024D300B648FA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B335B2E22790250200B648FA /* HandsetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetGame.swift; sourceTree = "<group>"; };
+		B335B3072790251900B648FA /* HandsetGameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetGameM.swift; sourceTree = "<group>"; };
+		B335B3142790252300B648FA /* HandsetGameN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetGameN.swift; sourceTree = "<group>"; };
+		B335B321279025A100B648FA /* HandsetBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrand.swift; sourceTree = "<group>"; };
+		B335B32E279025D300B648FA /* HandsetSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetSoft.swift; sourceTree = "<group>"; };
+		B335B33B279026A600B648FA /* HandsetBrandM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrandM.swift; sourceTree = "<group>"; };
+		B335B348279026DA00B648FA /* HandsetBrandN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrandN.swift; sourceTree = "<group>"; };
+		B335B36327902BB600B648FA /* HandsetAddressList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetAddressList.swift; sourceTree = "<group>"; };
+		B335B37127902FC200B648FA /* HandsetMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetMP3.swift; sourceTree = "<group>"; };
+		B335B3892790301600B648FA /* HandsetBrandS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrandS.swift; sourceTree = "<group>"; };
 		B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08_装饰模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36C706D26E0CFB6000C2DFE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B36C708526E0D0EE000C2DFE /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
@@ -313,6 +345,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8AC9B37826870D3100267F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B335B2CC279024D300B648FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,6 +534,7 @@
 				8A93B0D526CE9ACB00767936 /* 07_抽象工厂 */,
 				B36C706C26E0CFB6000C2DFE /* 08_装饰模式 */,
 				B38E3332278F1528007544D8 /* 09_享元模式 */,
+				B335B2D0279024D300B648FA /* 10_桥接模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -512,6 +552,7 @@
 				B3991AB426DF19DA00C2346B /* 01_外观模式 */,
 				B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */,
 				B38E3331278F1528007544D8 /* 09_享元模式 */,
+				B335B2CF279024D300B648FA /* 10_桥接模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -532,6 +573,64 @@
 				8AC9B39026870D3100267F8E /* main.m */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		B335B2D0279024D300B648FA /* 10_桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B2D1279024D300B648FA /* main.swift */,
+				B335B35627902B8500B648FA /* 手机品牌 */,
+				B335B35527902B7E00B648FA /* 手机软件 */,
+				B335B37027902F9E00B648FA /* 手机MP3 */,
+				B335B36227902BA400B648FA /* 手机通讯录 */,
+				B335B2E1279024E900B648FA /* 手机游戏 */,
+			);
+			path = "10_桥接模式";
+			sourceTree = "<group>";
+		};
+		B335B2E1279024E900B648FA /* 手机游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B2E22790250200B648FA /* HandsetGame.swift */,
+				B335B3072790251900B648FA /* HandsetGameM.swift */,
+				B335B3142790252300B648FA /* HandsetGameN.swift */,
+			);
+			path = "手机游戏";
+			sourceTree = "<group>";
+		};
+		B335B35527902B7E00B648FA /* 手机软件 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B32E279025D300B648FA /* HandsetSoft.swift */,
+			);
+			path = "手机软件";
+			sourceTree = "<group>";
+		};
+		B335B35627902B8500B648FA /* 手机品牌 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B321279025A100B648FA /* HandsetBrand.swift */,
+				B335B33B279026A600B648FA /* HandsetBrandM.swift */,
+				B335B348279026DA00B648FA /* HandsetBrandN.swift */,
+				B335B3892790301600B648FA /* HandsetBrandS.swift */,
+			);
+			path = "手机品牌";
+			sourceTree = "<group>";
+		};
+		B335B36227902BA400B648FA /* 手机通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B36327902BB600B648FA /* HandsetAddressList.swift */,
+			);
+			path = "手机通讯录";
+			sourceTree = "<group>";
+		};
+		B335B37027902F9E00B648FA /* 手机MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				B335B37127902FC200B648FA /* HandsetMP3.swift */,
+			);
+			path = "手机MP3";
 			sourceTree = "<group>";
 		};
 		B36C706C26E0CFB6000C2DFE /* 08_装饰模式 */ = {
@@ -783,6 +882,23 @@
 			productReference = 8AC9B37B26870D3100267F8E /* DesignPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B335B2CE279024D300B648FA /* 10_桥接模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B335B2D3279024D300B648FA /* Build configuration list for PBXNativeTarget "10_桥接模式" */;
+			buildPhases = (
+				B335B2CB279024D300B648FA /* Sources */,
+				B335B2CC279024D300B648FA /* Frameworks */,
+				B335B2CD279024D300B648FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10_桥接模式";
+			productName = "10_桥接模式";
+			productReference = B335B2CF279024D300B648FA /* 10_桥接模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B36C706A26E0CFB6000C2DFE /* 08_装饰模式 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36C707126E0CFB6000C2DFE /* Build configuration list for PBXNativeTarget "08_装饰模式" */;
@@ -892,6 +1008,9 @@
 					8AC9B37A26870D3100267F8E = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					B335B2CE279024D300B648FA = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B36C706A26E0CFB6000C2DFE = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -932,6 +1051,7 @@
 				8A93B0D326CE9ACB00767936 /* 07_抽象工厂 */,
 				B36C706A26E0CFB6000C2DFE /* 08_装饰模式 */,
 				B38E3330278F1528007544D8 /* 09_享元模式 */,
+				B335B2CE279024D300B648FA /* 10_桥接模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -1054,6 +1174,24 @@
 				8AC9B38026870D3100267F8E /* AppDelegate.m in Sources */,
 				8AC9B39126870D3100267F8E /* main.m in Sources */,
 				8AC9B38326870D3100267F8E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B335B2CB279024D300B648FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B335B38A2790301600B648FA /* HandsetBrandS.swift in Sources */,
+				B335B3152790252300B648FA /* HandsetGameN.swift in Sources */,
+				B335B2D2279024D300B648FA /* main.swift in Sources */,
+				B335B349279026DA00B648FA /* HandsetBrandN.swift in Sources */,
+				B335B36427902BB600B648FA /* HandsetAddressList.swift in Sources */,
+				B335B322279025A100B648FA /* HandsetBrand.swift in Sources */,
+				B335B33C279026A600B648FA /* HandsetBrandM.swift in Sources */,
+				B335B32F279025D300B648FA /* HandsetSoft.swift in Sources */,
+				B335B3082790251900B648FA /* HandsetGameM.swift in Sources */,
+				B335B37227902FC200B648FA /* HandsetMP3.swift in Sources */,
+				B335B2E32790250200B648FA /* HandsetGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1490,6 +1628,36 @@
 			};
 			name = Release;
 		};
+		B335B2D4279024D300B648FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B335B2D5279024D300B648FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		B36C706F26E0CFB6000C2DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1721,6 +1889,15 @@
 			buildConfigurations = (
 				8AC9B39526870D3100267F8E /* Debug */,
 				8AC9B39626870D3100267F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B335B2D3279024D300B648FA /* Build configuration list for PBXNativeTarget "10_桥接模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B335B2D4279024D300B648FA /* Debug */,
+				B335B2D5279024D300B648FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
