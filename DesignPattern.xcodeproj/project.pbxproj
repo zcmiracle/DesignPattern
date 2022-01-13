@@ -53,6 +53,7 @@
 		8AC9B38B26870D3100267F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9B38A26870D3100267F8E /* Assets.xcassets */; };
 		8AC9B38E26870D3100267F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9B38C26870D3100267F8E /* LaunchScreen.storyboard */; };
 		8AC9B39126870D3100267F8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B39026870D3100267F8E /* main.m */; };
+		B335B2AC2790185500B648FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335B2AB2790185500B648FA /* User.swift */; };
 		B36C706E26E0CFB6000C2DFE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C706D26E0CFB6000C2DFE /* main.swift */; };
 		B36C708626E0D0EE000C2DFE /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C708526E0D0EE000C2DFE /* Component.swift */; };
 		B36C709126E0D110000C2DFE /* ConcreteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C709026E0D110000C2DFE /* ConcreteComponent.swift */; };
@@ -92,8 +93,7 @@
 		B385F9D126CE5B5D00317C0E /* MulFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C726CE5B5D00317C0E /* MulFactory.swift */; };
 		B385F9D926CE5B6E00317C0E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9D826CE5B6E00317C0E /* Operation.swift */; };
 		B38E3334278F1528007544D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3333278F1528007544D8 /* main.swift */; };
-		B38E3359278F1578007544D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3358278F1578007544D8 /* User.swift */; };
-		B38E3365278F15CB007544D8 /* WebsiteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3364278F15CB007544D8 /* WebsiteProtocol.swift */; };
+		B38E3365278F15CB007544D8 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3364278F15CB007544D8 /* Website.swift */; };
 		B38E3371278F1778007544D8 /* ConcreteWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3370278F1778007544D8 /* ConcreteWebsite.swift */; };
 		B38E337D278F186A007544D8 /* WebsiteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E337C278F186A007544D8 /* WebsiteFactory.swift */; };
 		B3991AB726DF19DA00C2346B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991AB626DF19DA00C2346B /* main.swift */; };
@@ -221,6 +221,7 @@
 		8AC9B38D26870D3100267F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AC9B38F26870D3100267F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC9B39026870D3100267F8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B335B2AB2790185500B648FA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B36C706B26E0CFB6000C2DFE /* 08_装饰模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08_装饰模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36C706D26E0CFB6000C2DFE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B36C708526E0D0EE000C2DFE /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
@@ -266,8 +267,7 @@
 		B385F9D826CE5B6E00317C0E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		B38E3331278F1528007544D8 /* 09_享元模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09_享元模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38E3333278F1528007544D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B38E3358278F1578007544D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B38E3364278F15CB007544D8 /* WebsiteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteProtocol.swift; sourceTree = "<group>"; };
+		B38E3364278F15CB007544D8 /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 		B38E3370278F1778007544D8 /* ConcreteWebsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteWebsite.swift; sourceTree = "<group>"; };
 		B38E337C278F186A007544D8 /* WebsiteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteFactory.swift; sourceTree = "<group>"; };
 		B3991AB426DF19DA00C2346B /* 01_外观模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_外观模式"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -623,8 +623,8 @@
 			isa = PBXGroup;
 			children = (
 				B38E3333278F1528007544D8 /* main.swift */,
-				B38E3358278F1578007544D8 /* User.swift */,
-				B38E3364278F15CB007544D8 /* WebsiteProtocol.swift */,
+				B335B2AB2790185500B648FA /* User.swift */,
+				B38E3364278F15CB007544D8 /* Website.swift */,
 				B38E3370278F1778007544D8 /* ConcreteWebsite.swift */,
 				B38E337C278F186A007544D8 /* WebsiteFactory.swift */,
 			);
@@ -1114,11 +1114,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38E3359278F1578007544D8 /* User.swift in Sources */,
 				B38E3334278F1528007544D8 /* main.swift in Sources */,
 				B38E337D278F186A007544D8 /* WebsiteFactory.swift in Sources */,
 				B38E3371278F1778007544D8 /* ConcreteWebsite.swift in Sources */,
-				B38E3365278F15CB007544D8 /* WebsiteProtocol.swift in Sources */,
+				B335B2AC2790185500B648FA /* User.swift in Sources */,
+				B38E3365278F15CB007544D8 /* Website.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

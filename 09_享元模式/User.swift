@@ -7,7 +7,15 @@
 
 import Foundation
 
-class User {
-    var name: String?
-    
+//class User {
+//    var name: String
+//
+//    init(name: String) {
+//        self.name = name
+//    }
+//}
+
+
+struct User {
+    var name: String
 }

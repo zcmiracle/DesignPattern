@@ -7,15 +7,19 @@
 
 import Foundation
 
+// 继承 此处 用 protocol？
+class ConcreteWebsite: Website {
 
-// 遵守 WebsiteProtocol 协议
-class ConcreteWebsite: WebsiteProtocol {
+    var websiteName: String = ""
 
-    // 实现协议的方法
-    func use(_ user: User) {
-        print("\(websiteName), \(user.name)")
+    // 指定构造
+    init(webSiteName: String) {
+        self.websiteName = webSiteName
     }
-
-    var websiteName: String?
+    
+    // 实现协议的方法
+    override func use(_ user: User) {
+        print("网站分类：\(websiteName), 用户：\(user.name)")
+    }
 
 }
