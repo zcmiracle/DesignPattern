@@ -11,6 +11,10 @@
 		8A0E8742279067C400D78738 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E8741279067C400D78738 /* Component.swift */; };
 		8A0E87512790684D00D78738 /* Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E87502790684D00D78738 /* Leaf.swift */; };
 		8A0E8760279068B200D78738 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E875F279068B200D78738 /* Composite.swift */; };
+		8A0E87992790711500D78738 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E87982790711500D78738 /* File.swift */; };
+		8A0E87A82790714100D78738 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E87A72790714100D78738 /* Book.swift */; };
+		8A0E87B7279071A100D78738 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E87B6279071A100D78738 /* Music.swift */; };
+		8A0E87C62790725600D78738 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E87C52790725600D78738 /* Folder.swift */; };
 		8A7EA24426CD4BB900B4A349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EA24326CD4BB900B4A349 /* AppDelegate.swift */; };
 		8A7EA24626CD4BB900B4A349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EA24526CD4BB900B4A349 /* SceneDelegate.swift */; };
 		8A7EA24826CD4BB900B4A349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EA24726CD4BB900B4A349 /* ViewController.swift */; };
@@ -218,6 +222,10 @@
 		8A0E8741279067C400D78738 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		8A0E87502790684D00D78738 /* Leaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaf.swift; sourceTree = "<group>"; };
 		8A0E875F279068B200D78738 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		8A0E87982790711500D78738 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		8A0E87A72790714100D78738 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		8A0E87B6279071A100D78738 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		8A0E87C52790725600D78738 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
 		8A7EA24126CD4BB900B4A349 /* 02_简单工厂模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02_简单工厂模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7EA24326CD4BB900B4A349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A7EA24526CD4BB900B4A349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -457,8 +465,20 @@
 				8A0E8741279067C400D78738 /* Component.swift */,
 				8A0E87502790684D00D78738 /* Leaf.swift */,
 				8A0E875F279068B200D78738 /* Composite.swift */,
+				8A0E876E279070F400D78738 /* 组合模式2 */,
 			);
 			path = "12_组合模式";
+			sourceTree = "<group>";
+		};
+		8A0E876E279070F400D78738 /* 组合模式2 */ = {
+			isa = PBXGroup;
+			children = (
+				8A0E87982790711500D78738 /* File.swift */,
+				8A0E87A72790714100D78738 /* Book.swift */,
+				8A0E87B6279071A100D78738 /* Music.swift */,
+				8A0E87C52790725600D78738 /* Folder.swift */,
+			);
+			path = "组合模式2";
 			sourceTree = "<group>";
 		};
 		8A7EA24226CD4BB900B4A349 /* 02_简单工厂模式 */ = {
@@ -1260,8 +1280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0E87992790711500D78738 /* File.swift in Sources */,
 				8A0E87512790684D00D78738 /* Leaf.swift in Sources */,
+				8A0E87A82790714100D78738 /* Book.swift in Sources */,
+				8A0E87C62790725600D78738 /* Folder.swift in Sources */,
 				8A0E8760279068B200D78738 /* Composite.swift in Sources */,
+				8A0E87B7279071A100D78738 /* Music.swift in Sources */,
 				8A0E87302790667300D78738 /* main.swift in Sources */,
 				8A0E8742279067C400D78738 /* Component.swift in Sources */,
 			);

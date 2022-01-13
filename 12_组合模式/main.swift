@@ -33,3 +33,17 @@ root.add(leaf)
 root.remove(leaf)
 
 root.display(1)
+
+
+let music1 = Music(name: "周杰伦", artist: "123")
+let music2 = Music(name: "张学友", artist: "456")
+
+let book1 = Book(name:"", author: "")
+let documents = Folder(name: "Documents")
+let musicFolder = Folder(name: "最喜欢的50手歌曲")
+
+documents.addFile(file: musicFolder)
+musicFolder.addFile(file: music2)
+documents.open()
+musicFolder.open()
+
