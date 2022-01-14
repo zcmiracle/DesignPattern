@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 var context: Context
 
 // 由于实例化不同的策略，所以最终在调用 context.ContextInterface() 时，所获得的结果就不同
