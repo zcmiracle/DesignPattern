@@ -130,6 +130,12 @@
 		B3991B6C26DF2CEF00C2346B /* ZCStock3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B6926DF2CEF00C2346B /* ZCStock3.swift */; };
 		B3991B7726DF2D9A00C2346B /* NationalDebt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B7626DF2D9A00C2346B /* NationalDebt.swift */; };
 		B3991B8A26DF2DD400C2346B /* Realty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991B8926DF2DD400C2346B /* Realty.swift */; };
+		B3CFF9A5279162F100BE2354 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9A4279162F100BE2354 /* main.swift */; };
+		B3CFF9BA2791680600BE2354 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9B92791680600BE2354 /* Strategy.swift */; };
+		B3CFF9CA2791688100BE2354 /* ConcreteStrategyA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9C92791688100BE2354 /* ConcreteStrategyA.swift */; };
+		B3CFF9DA279170C500BE2354 /* ConcreteStrategyB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9D9279170C500BE2354 /* ConcreteStrategyB.swift */; };
+		B3CFF9EA2791713100BE2354 /* ConcreteStrategyC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9E92791713100BE2354 /* ConcreteStrategyC.swift */; };
+		B3CFF9FA2791718F00BE2354 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9F92791718F00BE2354 /* Context.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,6 +212,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B3991AB226DF19DA00C2346B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B3CFF9A0279162F100BE2354 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -361,6 +376,13 @@
 		B3991B7626DF2D9A00C2346B /* NationalDebt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalDebt.swift; sourceTree = "<group>"; };
 		B3991B8926DF2DD400C2346B /* Realty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realty.swift; sourceTree = "<group>"; };
 		B3991BA326DF2F7F00C2346B /* 外观模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外观模式.md"; sourceTree = "<group>"; };
+		B3CFF9A2279162F100BE2354 /* 13_策略模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13_策略模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFF9A4279162F100BE2354 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3CFF9B92791680600BE2354 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		B3CFF9C92791688100BE2354 /* ConcreteStrategyA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteStrategyA.swift; sourceTree = "<group>"; };
+		B3CFF9D9279170C500BE2354 /* ConcreteStrategyB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteStrategyB.swift; sourceTree = "<group>"; };
+		B3CFF9E92791713100BE2354 /* ConcreteStrategyC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteStrategyC.swift; sourceTree = "<group>"; };
+		B3CFF9F92791718F00BE2354 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +471,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B3991AB126DF19DA00C2346B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFF99F279162F100BE2354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -622,6 +651,7 @@
 				B335B2D0279024D300B648FA /* 10_桥接模式 */,
 				B335B39B27903BCA00B648FA /* 11_命令模式 */,
 				8A0E872E2790667300D78738 /* 12_组合模式 */,
+				B3CFF9A3279162F100BE2354 /* 13_策略模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -642,6 +672,7 @@
 				B335B2CF279024D300B648FA /* 10_桥接模式 */,
 				B335B39A27903BC900B648FA /* 11_命令模式 */,
 				8A0E872D2790667300D78738 /* 12_组合模式 */,
+				B3CFF9A2279162F100BE2354 /* 13_策略模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -928,6 +959,19 @@
 			path = "房地产";
 			sourceTree = "<group>";
 		};
+		B3CFF9A3279162F100BE2354 /* 13_策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFF9A4279162F100BE2354 /* main.swift */,
+				B3CFF9B92791680600BE2354 /* Strategy.swift */,
+				B3CFF9C92791688100BE2354 /* ConcreteStrategyA.swift */,
+				B3CFF9D9279170C500BE2354 /* ConcreteStrategyB.swift */,
+				B3CFF9E92791713100BE2354 /* ConcreteStrategyC.swift */,
+				B3CFF9F92791718F00BE2354 /* Context.swift */,
+			);
+			path = "13_策略模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1152,13 +1196,30 @@
 			productReference = B3991AB426DF19DA00C2346B /* 01_外观模式 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B3CFF9A1279162F100BE2354 /* 13_策略模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFF9A6279162F100BE2354 /* Build configuration list for PBXNativeTarget "13_策略模式" */;
+			buildPhases = (
+				B3CFF99E279162F100BE2354 /* Sources */,
+				B3CFF99F279162F100BE2354 /* Frameworks */,
+				B3CFF9A0279162F100BE2354 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13_策略模式";
+			productName = "13_策略模式";
+			productReference = B3CFF9A2279162F100BE2354 /* 13_策略模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8AC9B37326870D3100267F8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					8A0E872C2790667300D78738 = {
@@ -1200,6 +1261,9 @@
 					B3991AB326DF19DA00C2346B = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					B3CFF9A1279162F100BE2354 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = 8AC9B37626870D3100267F8E /* Build configuration list for PBXProject "DesignPattern" */;
@@ -1228,6 +1292,7 @@
 				B335B2CE279024D300B648FA /* 10_桥接模式 */,
 				B335B39927903BC900B648FA /* 11_命令模式 */,
 				8A0E872C2790667300D78738 /* 12_组合模式 */,
+				B3CFF9A1279162F100BE2354 /* 13_策略模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -1475,6 +1540,19 @@
 				B3991B5626DF2C4100C2346B /* ZCFund.swift in Sources */,
 				B3991AB726DF19DA00C2346B /* main.swift in Sources */,
 				B3991B6B26DF2CEF00C2346B /* ZCStock1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFF99E279162F100BE2354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFF9BA2791680600BE2354 /* Strategy.swift in Sources */,
+				B3CFF9CA2791688100BE2354 /* ConcreteStrategyA.swift in Sources */,
+				B3CFF9DA279170C500BE2354 /* ConcreteStrategyB.swift in Sources */,
+				B3CFF9FA2791718F00BE2354 /* Context.swift in Sources */,
+				B3CFF9A5279162F100BE2354 /* main.swift in Sources */,
+				B3CFF9EA2791713100BE2354 /* ConcreteStrategyC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2100,6 +2178,36 @@
 			};
 			name = Release;
 		};
+		B3CFF9A7279162F100BE2354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B3CFF9A8279162F100BE2354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2225,6 +2333,15 @@
 			buildConfigurations = (
 				B3991AB926DF19DA00C2346B /* Debug */,
 				B3991ABA26DF19DA00C2346B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFF9A6279162F100BE2354 /* Build configuration list for PBXNativeTarget "13_策略模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFF9A7279162F100BE2354 /* Debug */,
+				B3CFF9A8279162F100BE2354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
