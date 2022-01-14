@@ -136,6 +136,11 @@
 		B3CFF9DA279170C500BE2354 /* ConcreteStrategyB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9D9279170C500BE2354 /* ConcreteStrategyB.swift */; };
 		B3CFF9EA2791713100BE2354 /* ConcreteStrategyC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9E92791713100BE2354 /* ConcreteStrategyC.swift */; };
 		B3CFF9FA2791718F00BE2354 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFF9F92791718F00BE2354 /* Context.swift */; };
+		B3CFFA47279174BC00BE2354 /* CashNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFFA46279174BC00BE2354 /* CashNormal.swift */; };
+		B3CFFA652791750A00BE2354 /* CashReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFFA642791750A00BE2354 /* CashReturn.swift */; };
+		B3CFFA752791756500BE2354 /* CashRobate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFFA742791756500BE2354 /* CashRobate.swift */; };
+		B3CFFA85279175BB00BE2354 /* CashStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFFA84279175BB00BE2354 /* CashStrategy.swift */; };
+		B3CFFA95279176C000BE2354 /* CashSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFFA94279176C000BE2354 /* CashSuper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -383,6 +388,11 @@
 		B3CFF9D9279170C500BE2354 /* ConcreteStrategyB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteStrategyB.swift; sourceTree = "<group>"; };
 		B3CFF9E92791713100BE2354 /* ConcreteStrategyC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteStrategyC.swift; sourceTree = "<group>"; };
 		B3CFF9F92791718F00BE2354 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		B3CFFA46279174BC00BE2354 /* CashNormal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashNormal.swift; sourceTree = "<group>"; };
+		B3CFFA642791750A00BE2354 /* CashReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashReturn.swift; sourceTree = "<group>"; };
+		B3CFFA742791756500BE2354 /* CashRobate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRobate.swift; sourceTree = "<group>"; };
+		B3CFFA84279175BB00BE2354 /* CashStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashStrategy.swift; sourceTree = "<group>"; };
+		B3CFFA94279176C000BE2354 /* CashSuper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashSuper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -968,8 +978,21 @@
 				B3CFF9D9279170C500BE2354 /* ConcreteStrategyB.swift */,
 				B3CFF9E92791713100BE2354 /* ConcreteStrategyC.swift */,
 				B3CFF9F92791718F00BE2354 /* Context.swift */,
+				B3CFFA172791746400BE2354 /* 具体 */,
 			);
 			path = "13_策略模式";
+			sourceTree = "<group>";
+		};
+		B3CFFA172791746400BE2354 /* 具体 */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFFA94279176C000BE2354 /* CashSuper.swift */,
+				B3CFFA46279174BC00BE2354 /* CashNormal.swift */,
+				B3CFFA642791750A00BE2354 /* CashReturn.swift */,
+				B3CFFA742791756500BE2354 /* CashRobate.swift */,
+				B3CFFA84279175BB00BE2354 /* CashStrategy.swift */,
+			);
+			path = "具体";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1548,11 +1571,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CFF9BA2791680600BE2354 /* Strategy.swift in Sources */,
+				B3CFFA85279175BB00BE2354 /* CashStrategy.swift in Sources */,
 				B3CFF9CA2791688100BE2354 /* ConcreteStrategyA.swift in Sources */,
 				B3CFF9DA279170C500BE2354 /* ConcreteStrategyB.swift in Sources */,
+				B3CFFA95279176C000BE2354 /* CashSuper.swift in Sources */,
 				B3CFF9FA2791718F00BE2354 /* Context.swift in Sources */,
 				B3CFF9A5279162F100BE2354 /* main.swift in Sources */,
+				B3CFFA652791750A00BE2354 /* CashReturn.swift in Sources */,
+				B3CFFA47279174BC00BE2354 /* CashNormal.swift in Sources */,
 				B3CFF9EA2791713100BE2354 /* ConcreteStrategyC.swift in Sources */,
+				B3CFFA752791756500BE2354 /* CashRobate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
