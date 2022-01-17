@@ -117,6 +117,13 @@
 		B385F9D026CE5B5D00317C0E /* InterfaceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C626CE5B5D00317C0E /* InterfaceFactory.swift */; };
 		B385F9D126CE5B5D00317C0E /* MulFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9C726CE5B5D00317C0E /* MulFactory.swift */; };
 		B385F9D926CE5B6E00317C0E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F9D826CE5B6E00317C0E /* Operation.swift */; };
+		B38CCC40279553800017048C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCC3F279553800017048C /* main.swift */; };
+		B38CCC58279554880017048C /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCC57279554880017048C /* Observer.swift */; };
+		B38CCC6D279554CA0017048C /* StockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCC6C279554CA0017048C /* StockObserver.swift */; };
+		B38CCC82279555120017048C /* NBAObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCC81279555120017048C /* NBAObserver.swift */; };
+		B38CCC972795554B0017048C /* Secretary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCC962795554B0017048C /* Secretary.swift */; };
+		B38CCCAC279557A80017048C /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCCAB279557A80017048C /* Subject.swift */; };
+		B38CCCC1279558120017048C /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCCC0279558120017048C /* Boss.swift */; };
 		B38E3334278F1528007544D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3333278F1528007544D8 /* main.swift */; };
 		B38E3365278F15CB007544D8 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3364278F15CB007544D8 /* Website.swift */; };
 		B38E3371278F1778007544D8 /* ConcreteWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3370278F1778007544D8 /* ConcreteWebsite.swift */; };
@@ -215,6 +222,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B36C706926E0CFB6000C2DFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B38CCC3B279553800017048C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -417,6 +433,15 @@
 		B385F9C626CE5B5D00317C0E /* InterfaceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceFactory.swift; sourceTree = "<group>"; };
 		B385F9C726CE5B5D00317C0E /* MulFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulFactory.swift; sourceTree = "<group>"; };
 		B385F9D826CE5B6E00317C0E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		B38CCC3D279553800017048C /* 18_观察者模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18_观察者模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38CCC3F279553800017048C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B38CCC57279554880017048C /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		B38CCC6C279554CA0017048C /* StockObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockObserver.swift; sourceTree = "<group>"; };
+		B38CCC81279555120017048C /* NBAObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAObserver.swift; sourceTree = "<group>"; };
+		B38CCC962795554B0017048C /* Secretary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secretary.swift; sourceTree = "<group>"; };
+		B38CCCAB279557A80017048C /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		B38CCCC0279558120017048C /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
+		B38CCCD52795617F0017048C /* 观察者对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "观察者对象.png"; sourceTree = "<group>"; };
 		B38E3331278F1528007544D8 /* 09_享元模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09_享元模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38E3333278F1528007544D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B38E3364278F15CB007544D8 /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
@@ -539,6 +564,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B385F9A226CE575A00317C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38CCC3A279553800017048C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -766,6 +798,7 @@
 				B3CFFB152791806900BE2354 /* 15_原型模式 */,
 				B3CFFB75279189FE00BE2354 /* 16_模板方法模式 */,
 				B3CFFBDD2791939A00BE2354 /* 17_建造者模式 */,
+				B38CCC3E279553800017048C /* 18_观察者模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -791,6 +824,7 @@
 				B3CFFB142791806900BE2354 /* 15_原型模式 */,
 				B3CFFB74279189FE00BE2354 /* 16_模板方法模式 */,
 				B3CFFBDC2791939A00BE2354 /* 17_建造者模式 */,
+				B38CCC3D279553800017048C /* 18_观察者模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -999,6 +1033,21 @@
 				B385F9C326CE5B5D00317C0E /* OperationDiv.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B38CCC3E279553800017048C /* 18_观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B38CCCD52795617F0017048C /* 观察者对象.png */,
+				B38CCC3F279553800017048C /* main.swift */,
+				B38CCC57279554880017048C /* Observer.swift */,
+				B38CCC6C279554CA0017048C /* StockObserver.swift */,
+				B38CCC81279555120017048C /* NBAObserver.swift */,
+				B38CCC962795554B0017048C /* Secretary.swift */,
+				B38CCCAB279557A80017048C /* Subject.swift */,
+				B38CCCC0279558120017048C /* Boss.swift */,
+			);
+			path = "18_观察者模式";
 			sourceTree = "<group>";
 		};
 		B38E3332278F1528007544D8 /* 09_享元模式 */ = {
@@ -1337,6 +1386,23 @@
 			productReference = B385F9A526CE575A00317C0E /* 04_工厂方法模式.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B38CCC3C279553800017048C /* 18_观察者模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38CCC43279553800017048C /* Build configuration list for PBXNativeTarget "18_观察者模式" */;
+			buildPhases = (
+				B38CCC39279553800017048C /* Sources */,
+				B38CCC3A279553800017048C /* Frameworks */,
+				B38CCC3B279553800017048C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18_观察者模式";
+			productName = "18_观察者模式";
+			productReference = B38CCC3D279553800017048C /* 18_观察者模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B38E3330278F1528007544D8 /* 09_享元模式 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B38E3337278F1528007544D8 /* Build configuration list for PBXNativeTarget "09_享元模式" */;
@@ -1498,6 +1564,9 @@
 					B385F9A426CE575A00317C0E = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					B38CCC3C279553800017048C = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B38E3330278F1528007544D8 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1552,6 +1621,7 @@
 				B3CFFB132791806900BE2354 /* 15_原型模式 */,
 				B3CFFB73279189FE00BE2354 /* 16_模板方法模式 */,
 				B3CFFBDB2791939A00BE2354 /* 17_建造者模式 */,
+				B38CCC3C279553800017048C /* 18_观察者模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -1773,6 +1843,20 @@
 				B385F9CA26CE5B5D00317C0E /* DivFactory.swift in Sources */,
 				B385F9C926CE5B5D00317C0E /* OperationAdd.swift in Sources */,
 				B385F9D026CE5B5D00317C0E /* InterfaceFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38CCC39279553800017048C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38CCC40279553800017048C /* main.swift in Sources */,
+				B38CCC972795554B0017048C /* Secretary.swift in Sources */,
+				B38CCCC1279558120017048C /* Boss.swift in Sources */,
+				B38CCC82279555120017048C /* NBAObserver.swift in Sources */,
+				B38CCC58279554880017048C /* Observer.swift in Sources */,
+				B38CCCAC279557A80017048C /* Subject.swift in Sources */,
+				B38CCC6D279554CA0017048C /* StockObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2426,6 +2510,36 @@
 			};
 			name = Release;
 		};
+		B38CCC41279553800017048C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B38CCC42279553800017048C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		B38E3335278F1528007544D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2743,6 +2857,15 @@
 			buildConfigurations = (
 				B385F9B626CE575E00317C0E /* Debug */,
 				B385F9B726CE575E00317C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38CCC43279553800017048C /* Build configuration list for PBXNativeTarget "18_观察者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38CCC41279553800017048C /* Debug */,
+				B38CCC42279553800017048C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
