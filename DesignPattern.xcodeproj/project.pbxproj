@@ -124,6 +124,15 @@
 		B38CCC972795554B0017048C /* Secretary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCC962795554B0017048C /* Secretary.swift */; };
 		B38CCCAC279557A80017048C /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCCAB279557A80017048C /* Subject.swift */; };
 		B38CCCC1279558120017048C /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCCC0279558120017048C /* Boss.swift */; };
+		B38CCCDD279561E70017048C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCCDC279561E70017048C /* main.swift */; };
+		B38CCCF7279563B90017048C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCCF6279563B90017048C /* State.swift */; };
+		B38CCD4D2795652D0017048C /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCD4C2795652D0017048C /* Work.swift */; };
+		B38CCD63279565580017048C /* ForenoonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCD62279565580017048C /* ForenoonState.swift */; };
+		B38CCD792795676F0017048C /* NoonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCD782795676F0017048C /* NoonState.swift */; };
+		B38CCD8F279567CD0017048C /* AfternoonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCD8E279567CD0017048C /* AfternoonState.swift */; };
+		B38CCDA52795682D0017048C /* EveningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCDA42795682D0017048C /* EveningState.swift */; };
+		B38CCDBB279568ED0017048C /* RestState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCDBA279568ED0017048C /* RestState.swift */; };
+		B38CCDD12795692F0017048C /* SleepingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CCDD02795692F0017048C /* SleepingState.swift */; };
 		B38E3334278F1528007544D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3333278F1528007544D8 /* main.swift */; };
 		B38E3365278F15CB007544D8 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3364278F15CB007544D8 /* Website.swift */; };
 		B38E3371278F1778007544D8 /* ConcreteWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E3370278F1778007544D8 /* ConcreteWebsite.swift */; };
@@ -231,6 +240,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B38CCC3B279553800017048C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B38CCCD8279561E70017048C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -442,6 +460,17 @@
 		B38CCCAB279557A80017048C /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		B38CCCC0279558120017048C /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
 		B38CCCD52795617F0017048C /* 观察者对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "观察者对象.png"; sourceTree = "<group>"; };
+		B38CCCDA279561E70017048C /* 19_状态模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19_状态模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38CCCDC279561E70017048C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B38CCCF52795639B0017048C /* 状态模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "状态模式.png"; sourceTree = "<group>"; };
+		B38CCCF6279563B90017048C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		B38CCD4C2795652D0017048C /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		B38CCD62279565580017048C /* ForenoonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForenoonState.swift; sourceTree = "<group>"; };
+		B38CCD782795676F0017048C /* NoonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoonState.swift; sourceTree = "<group>"; };
+		B38CCD8E279567CD0017048C /* AfternoonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfternoonState.swift; sourceTree = "<group>"; };
+		B38CCDA42795682D0017048C /* EveningState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningState.swift; sourceTree = "<group>"; };
+		B38CCDBA279568ED0017048C /* RestState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestState.swift; sourceTree = "<group>"; };
+		B38CCDD02795692F0017048C /* SleepingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepingState.swift; sourceTree = "<group>"; };
 		B38E3331278F1528007544D8 /* 09_享元模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09_享元模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38E3333278F1528007544D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B38E3364278F15CB007544D8 /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
@@ -571,6 +600,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B38CCC3A279553800017048C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38CCCD7279561E70017048C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -799,6 +835,7 @@
 				B3CFFB75279189FE00BE2354 /* 16_模板方法模式 */,
 				B3CFFBDD2791939A00BE2354 /* 17_建造者模式 */,
 				B38CCC3E279553800017048C /* 18_观察者模式 */,
+				B38CCCDB279561E70017048C /* 19_状态模式 */,
 				8AC9B37C26870D3100267F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -825,6 +862,7 @@
 				B3CFFB74279189FE00BE2354 /* 16_模板方法模式 */,
 				B3CFFBDC2791939A00BE2354 /* 17_建造者模式 */,
 				B38CCC3D279553800017048C /* 18_观察者模式 */,
+				B38CCCDA279561E70017048C /* 19_状态模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1048,6 +1086,23 @@
 				B38CCCC0279558120017048C /* Boss.swift */,
 			);
 			path = "18_观察者模式";
+			sourceTree = "<group>";
+		};
+		B38CCCDB279561E70017048C /* 19_状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B38CCCF52795639B0017048C /* 状态模式.png */,
+				B38CCCDC279561E70017048C /* main.swift */,
+				B38CCCF6279563B90017048C /* State.swift */,
+				B38CCD4C2795652D0017048C /* Work.swift */,
+				B38CCD62279565580017048C /* ForenoonState.swift */,
+				B38CCD782795676F0017048C /* NoonState.swift */,
+				B38CCD8E279567CD0017048C /* AfternoonState.swift */,
+				B38CCDA42795682D0017048C /* EveningState.swift */,
+				B38CCDBA279568ED0017048C /* RestState.swift */,
+				B38CCDD02795692F0017048C /* SleepingState.swift */,
+			);
+			path = "19_状态模式";
 			sourceTree = "<group>";
 		};
 		B38E3332278F1528007544D8 /* 09_享元模式 */ = {
@@ -1403,6 +1458,23 @@
 			productReference = B38CCC3D279553800017048C /* 18_观察者模式 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B38CCCD9279561E70017048C /* 19_状态模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38CCCDE279561E70017048C /* Build configuration list for PBXNativeTarget "19_状态模式" */;
+			buildPhases = (
+				B38CCCD6279561E70017048C /* Sources */,
+				B38CCCD7279561E70017048C /* Frameworks */,
+				B38CCCD8279561E70017048C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19_状态模式";
+			productName = "19_状态模式";
+			productReference = B38CCCDA279561E70017048C /* 19_状态模式 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B38E3330278F1528007544D8 /* 09_享元模式 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B38E3337278F1528007544D8 /* Build configuration list for PBXNativeTarget "09_享元模式" */;
@@ -1567,6 +1639,9 @@
 					B38CCC3C279553800017048C = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					B38CCCD9279561E70017048C = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					B38E3330278F1528007544D8 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1622,6 +1697,7 @@
 				B3CFFB73279189FE00BE2354 /* 16_模板方法模式 */,
 				B3CFFBDB2791939A00BE2354 /* 17_建造者模式 */,
 				B38CCC3C279553800017048C /* 18_观察者模式 */,
+				B38CCCD9279561E70017048C /* 19_状态模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -1857,6 +1933,22 @@
 				B38CCC58279554880017048C /* Observer.swift in Sources */,
 				B38CCCAC279557A80017048C /* Subject.swift in Sources */,
 				B38CCC6D279554CA0017048C /* StockObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38CCCD6279561E70017048C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38CCD8F279567CD0017048C /* AfternoonState.swift in Sources */,
+				B38CCDBB279568ED0017048C /* RestState.swift in Sources */,
+				B38CCCDD279561E70017048C /* main.swift in Sources */,
+				B38CCDD12795692F0017048C /* SleepingState.swift in Sources */,
+				B38CCD63279565580017048C /* ForenoonState.swift in Sources */,
+				B38CCCF7279563B90017048C /* State.swift in Sources */,
+				B38CCD4D2795652D0017048C /* Work.swift in Sources */,
+				B38CCD792795676F0017048C /* NoonState.swift in Sources */,
+				B38CCDA52795682D0017048C /* EveningState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2540,6 +2632,36 @@
 			};
 			name = Release;
 		};
+		B38CCCDF279561E70017048C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B38CCCE0279561E70017048C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		B38E3335278F1528007544D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2866,6 +2988,15 @@
 			buildConfigurations = (
 				B38CCC41279553800017048C /* Debug */,
 				B38CCC42279553800017048C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38CCCDE279561E70017048C /* Build configuration list for PBXNativeTarget "19_状态模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38CCCDF279561E70017048C /* Debug */,
+				B38CCCE0279561E70017048C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
